@@ -1,3 +1,5 @@
-stacer/* usr/share/stacer/
-applications/* usr/share/applications/
-icons/* usr/share/icons/
+# CMake handles installation via dh_auto_install
+# See stacer/CMakeLists.txt for install rules:
+#   - Binary: bin/stacer -> /usr/bin/stacer
+#   - Desktop: share/applications/stacer.desktop
+#   - Icon: share/icons/stacer.png

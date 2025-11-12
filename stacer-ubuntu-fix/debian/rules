@@ -4,5 +4,22 @@
 # Uncomment this to turn on verbose mode.
 #export DH_VERBOSE=1
 
+# Enable hardening flags
+export DEB_BUILD_MAINT_OPTIONS = hardening=+all
+
 %:
-	dh $@  --parallel
+	dh $@ --buildsystem=cmake --parallel
+
+override_dh_auto_configure:
+	dh_auto_configure -- \
+		-DCMAKE_BUILD_TYPE=Release \
+		-DCMAKE_INSTALL_PREFIX=/usr
+
+override_dh_auto_build:
+	dh_auto_build
+
+override_dh_auto_install:
+	dh_auto_install
+
+override_dh_strip:
+	dh_strip --no-automatic-dbgsym

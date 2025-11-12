@@ -1,6 +1,9 @@
 #!/bin/sh
+set -e
 
-unlink /usr/bin/stacer
-rm -rf /usr/share/stacer
+# CMake installs files which are removed by dpkg automatically
+# No additional cleanup required
 
-exit 0 
+#DEBHELPER#
+
+exit 0

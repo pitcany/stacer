@@ -2,13 +2,36 @@ Source: stacer
 Section: utils
 Priority: optional
 Maintainer: Oguzhan INAN <oguzhan3488@gmail.com>
-Build-Depends: debhelper (>=9)
+Build-Depends: debhelper (>= 12),
+               cmake (>= 3.1),
+               qtbase5-dev,
+               libqt5charts5-dev,
+               libqt5svg5-dev,
+               qttools5-dev-tools,
+               qttools5-dev
 Standards-Version: 3.9.6
 Homepage: https://github.com/oguzhaninan/Stacer
 Vcs-Browser: https://github.com/oguzhaninan/Stacer.git
 
 Package: stacer
-Architecture: all
-Depends: ${misc:Depends}
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends},
+         libqt5core5a,
+         libqt5gui5,
+         libqt5widgets5,
+         libqt5charts5,
+         libqt5svg5,
+         libqt5concurrent5
 Recommends: systemd, curl
 Description: Linux System Optimizer and Monitoring
+ Stacer is an open source system optimizer and application monitor that
+ helps users to manage entire system with different aspects, its an all
+ in one system utility.
+ .
+ Features:
+  - System resource monitoring (CPU, Memory, Disk, Network)
+  - Startup applications management
+  - System service management
+  - Uninstaller for installed packages
+  - System cleaner for cache and logs
+  - Search tool for files and folders

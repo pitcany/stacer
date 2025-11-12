@@ -1,3 +1,18 @@
+stacer (1.1.1-1) stable; urgency=medium
+
+  * Ubuntu 22.04 and 24.04 LTS compatibility fixes
+  * Fixed 23 Qt 5.15+ deprecation warnings
+  * Updated QSet::toList() to values()
+  * Replaced endl with Qt::endl
+  * Updated QString::sprintf() to QString::number()
+  * Updated QChart axis API
+  * Migrated from QDesktopWidget to QScreen API
+  * Updated QFileInfo::created() to birthTime()
+  * Qt 6 migration preparation
+  * Zero build warnings on modern compilers
+
+ -- Oguzhan Inan <oguzhan3488@gmail.com>  Tue, 12 Nov 2024 13:00:00 +0000
+
 stacer (1.1.0-1) stable; urgency=medium
 
   * Snap package uninstaller.
