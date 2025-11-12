@@ -5,9 +5,9 @@ Version: 1.1.1-1
 Auto-Built-Package: debug-symbols
 Architecture: amd64
 Maintainer: Oguzhan INAN <oguzhan3488@gmail.com>
-Installed-Size: 8170
+Installed-Size: 8171
 Depends: stacer (= 1.1.1-1)
 Section: debug
 Priority: optional
 Description: debug symbols for stacer
-Build-Ids: ad9c0d6299c0f7c2277f39e7dea26de6c0e75cb2
+Build-Ids: 39a6b39d714b6986c05cf27bd74c30c1151b5c3f

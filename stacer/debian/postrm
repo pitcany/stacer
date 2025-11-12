@@ -1,6 +1,6 @@
 #!/bin/sh
 
-unlink /usr/bin/stacer
-rm -rf /usr/share/stacer
+# Binary is managed by dpkg, no manual cleanup needed
+# dpkg automatically removes /usr/bin/stacer when package is removed
 
 exit 0 

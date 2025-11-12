@@ -1,5 +1,6 @@
 #!/bin/sh
 
-ln -sf "/usr/share/stacer/stacer" "/usr/bin/stacer"
+# Binary is now installed directly to /usr/bin/stacer by debian/install
+# No symlink needed
 
 exit 0
