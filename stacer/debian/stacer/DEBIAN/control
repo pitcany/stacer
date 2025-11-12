@@ -1,0 +1,11 @@
+Package: stacer
+Version: 1.1.1-1
+Architecture: amd64
+Maintainer: Oguzhan INAN <oguzhan3488@gmail.com>
+Installed-Size: 1734
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libqt5charts5 (>= 5.7.1), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5network5 (>= 5.0.2), libqt5widgets5 (>= 5.3.0), libstdc++6 (>= 4.1.1)
+Recommends: systemd, curl
+Section: utils
+Priority: optional
+Homepage: https://github.com/oguzhaninan/Stacer
+Description: Linux System Optimizer and Monitoring

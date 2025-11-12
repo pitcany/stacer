@@ -1,0 +1,38 @@
+Format: 1.8
+Date: Tue, 12 Nov 2024 13:30:00 +0000
+Source: stacer
+Binary: stacer
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 1.1.1-1
+Distribution: stable
+Urgency: medium
+Maintainer: Oguzhan INAN <oguzhan3488@gmail.com>
+Changed-By: Ubuntu Compatibility Update <update@ubuntu.fix>
+Description:
+ stacer     - Linux System Optimizer and Monitoring
+Changes:
+ stacer (1.1.1-1) stable; urgency=medium
+ .
+   * Ubuntu 22.04 and 24.04 compatibility update
+   * Fixed all Qt 5.15+ deprecation warnings (23 warnings eliminated)
+   * Updated QSet::toList() to values()
+   * Updated endl to Qt::endl
+   * Modernized QString::sprintf() to QString::number()
+   * Updated QtCharts axis API for Qt 5.15+
+   * Fixed QDesktopWidget deprecations (now uses QScreen)
+   * Fixed QFileInfo::created() to birthTime()
+   * Ready for Qt 6 migration
+   * Clean compilation with zero warnings
+Checksums-Sha1:
+ ed2aef3cfa3a56ce619f8e5431b1bfba6b725d9a 8001592 stacer-dbgsym_1.1.1-1_amd64.ddeb
+ 06da5b68da427a91b9547fc640b7a61a3135969d 6474 stacer_1.1.1-1_amd64.buildinfo
+ 034dbb432ac47416bf95de0ac6f81be5349e8b47 809332 stacer_1.1.1-1_amd64.deb
+Checksums-Sha256:
+ 6921603080920f143171cd581d497222d2aae6d4ec28e8544dcf4cdc10ac28bb 8001592 stacer-dbgsym_1.1.1-1_amd64.ddeb
+ 5e9bb31d1f1c0cd193e8effa7e00be2b551bfe1982410df291c4c7bb7bbe5f95 6474 stacer_1.1.1-1_amd64.buildinfo
+ 8c0a94a7ed432377b17a069834d623a72f8328ffd8942e70f9546fcda4ce3c2d 809332 stacer_1.1.1-1_amd64.deb
+Files:
+ 38eeb23831460eb48564defb019984d3 8001592 debug optional stacer-dbgsym_1.1.1-1_amd64.ddeb
+ 8ac7ecb6e421b6da725d844cdab1a0bf 6474 utils optional stacer_1.1.1-1_amd64.buildinfo
+ 14008d4fb274cb1744dcc2169f05a298 809332 utils optional stacer_1.1.1-1_amd64.deb

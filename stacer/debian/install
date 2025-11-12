@@ -1,0 +1,3 @@
+obj-x86_64-linux-gnu/output/stacer usr/bin/
+applications/* usr/share/applications/
+icons/* usr/share/icons/
