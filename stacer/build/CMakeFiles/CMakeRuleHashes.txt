@@ -1,0 +1,4 @@
+# Hashes of file build rules.
+aff962b3ddd638cfd3078d5edf8e3949 stacer-core/CMakeFiles/stacer-core_autogen
+8a41e516b695c38d00f7390561dff2d7 stacer/CMakeFiles/stacer_autogen
+d24d55774bea31d3e229ae5f53ff4250 stacer/stacer_autogen/EWIEGA46WW/qrc_static.cpp
