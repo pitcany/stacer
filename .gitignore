@@ -76,20 +76,22 @@ agenthub/agents/youtube/db
 # Build caches
 .cache/
 
+# Debian packaging build artifacts
+**/debian/.debhelper/
+**/debian/debhelper-build-stamp
+**/debian/files
+**/debian/*.debhelper.log
+**/debian/*.debhelper
+**/debian/*.substvars
+**/debian/stacer/
+**/debian/*/tmp/
+**/obj-x86_64-linux-gnu/
+**/*.buildinfo
+**/*.changes
+
 # Mobile development
-android-sdk/ -e 
-# Environment files
-*.env
-*.env.*
--e 
-# Environment files
-*.env
-*.env.*
--e 
-# Environment files
-*.env
-*.env.*
--e 
+android-sdk/
+
 # Environment files
 *.env
 *.env.*
