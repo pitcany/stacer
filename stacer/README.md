@@ -1,6 +1,10 @@
 
 <p align="center">
-⚠️ <b>This project has been abandoned. There will be no further releases </b>⚠️
+⚠️ <b>Original project was abandoned. This fork includes Ubuntu 22.04/24.04 compatibility and critical bug fixes</b>⚠️
+</p>
+
+<p align="center">
+<b>Version 1.1.1</b> - Fixed for modern Ubuntu with Qt 5.15+ and high-core-count CPUs
 </p>
 
 <p align="center">
@@ -44,6 +48,21 @@
 	</a>
 </p>
 
+## What's New in Version 1.1.1
+
+### Critical Bug Fixes
+- **Fixed segmentation fault on modern CPUs**: CPU frequency detection now properly handles CPUs that report "CPU max MHz" instead of "CPU MHz" (stacer-core/Info/cpu_info.cpp:68-85)
+- **Fixed crash on high core-count CPUs**: Color palette now wraps correctly for CPUs with >20 cores/threads using modulo operator (stacer/Pages/Resources/history_chart.cpp:51)
+
+### Ubuntu 22.04/24.04 Compatibility
+- Fixed all Qt 5.15+ deprecation warnings (~30 instances across 12 files)
+- Updated QtCharts API usage for modern Qt
+- Replaced deprecated QDesktopWidget with QGuiApplication::screens()
+- Modernized string formatting from sprintf() to QString::number()
+- Ready for future Qt 6 migration
+
+See [CHANGES_SUMMARY.md](CHANGES_SUMMARY.md) for complete technical details.
+
 ### Required Packages
 - curl, systemd
 
@@ -61,28 +80,46 @@
 
 ### Debian x64
 
-1. Download `stacer_1.1.0_amd64.deb` from the [Stacer releases page](https://github.com/oguzhaninan/Stacer/releases).
+1. Download `stacer_1.1.1-1_amd64.deb` from this repository (includes Ubuntu 22.04/24.04 fixes)
 2. Run `sudo dpkg -i stacer*.deb` on the downloaded package.
 3. Launch Stacer using the installed `stacer` command.
+
+Note: The original 1.1.0 release may not work on Ubuntu 22.04+ due to Qt deprecation issues.
 
 ### Debian sid / Ubuntu 20.04+
 
 1. Run as root `apt install stacer`
 
 ### Fedora
-1. Download `stacer_1.1.0_amd64.rpm` from the [Stacer releases page](https://github.com/oguzhaninan/Stacer/releases).
+1. Download RPM from the [original Stacer releases page](https://github.com/oguzhaninan/Stacer/releases) (version 1.1.0)
 2. Run `sudo rpm --install stacer*.rpm --nodeps --force` on the downloaded package.
 3. Launch Stacer using the installed `stacer` command.
+
+Note: RPM package has not been updated to 1.1.1 yet. Build from source for latest fixes.
 
 ### Fedora (with DNF)
 1. Run: `sudo dnf install stacer`
 2. Launch Stacer using the installed `stacer` command.
 
 ## Build from source with CMake (Qt Version Qt 5.x)
+
+### Ubuntu 22.04 / 24.04 Dependencies
+```bash
+sudo apt-get install -y \
+    build-essential cmake \
+    qt5-qmake qtbase5-dev \
+    libqt5charts5-dev libqt5svg5-dev \
+    qttools5-dev-tools qttools5-dev \
+    curl systemd
+```
+
+### Build Steps
 1. `mkdir build && cd build`
-2. `cmake -DCMAKE_BUILD_TYPE=Release -DCMAKE_PREFIX_PATH=/qt/path/bin ..`
+2. `cmake -DCMAKE_BUILD_TYPE=Release ..`
 3. `make -j $(nproc)`
-4. `output/bin/stacer`
+4. `./output/stacer`
+
+The binary will be available at `build/output/stacer`
 
 ## Screenshots
 

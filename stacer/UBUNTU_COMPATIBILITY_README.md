@@ -6,8 +6,25 @@ Stacer has been successfully updated to work flawlessly on **Ubuntu 22.04 LTS** 
 
 ## 📋 What Was Done
 
-### Issues Fixed
-The original Stacer 1.1.0 had **~30 deprecation warnings** when compiled with Qt 5.15+. All of these have been systematically fixed:
+### Critical Bugs Fixed
+
+**These bugs affected the original Stacer 1.1.0 and would cause crashes:**
+
+1. 🔴 **CRITICAL: Segmentation Fault on Modern CPUs**
+   - **Symptom:** Immediate crash on startup
+   - **Affected:** AMD Ryzen 9 7950X3D, Intel 13th/14th gen, and other modern CPUs
+   - **Cause:** CPU frequency detection expected "CPU MHz" but modern CPUs report "CPU max MHz"
+   - **Fixed:** Added fallback detection logic (stacer-core/Info/cpu_info.cpp:68-85)
+
+2. 🔴 **CRITICAL: Crash on High Core-Count CPUs**
+   - **Symptom:** QList assertion failure or undefined behavior
+   - **Affected:** CPUs with >20 cores (Ryzen 9, Threadripper, EPYC, Intel HEDT)
+   - **Cause:** Color array had only 20 entries, but code tried to access index 20+ for high core counts
+   - **Fixed:** Added modulo wrapping to cycle colors (stacer/Pages/Resources/history_chart.cpp:51)
+
+### Deprecation Warnings Fixed
+
+The original Stacer 1.1.0 had **~30 deprecation warnings** when compiled with Qt 5.15+. All systematically fixed:
 
 1. ✅ **QSet API** - Updated to use `values()` instead of deprecated `toList()`
 2. ✅ **Text Stream** - Replaced `endl` with `Qt::endl`
@@ -20,10 +37,10 @@ The original Stacer 1.1.0 had **~30 deprecation warnings** when compiled with Qt
 9. ✅ **Variant Comparison** - Explicit type conversions for sorting
 
 ### Files Modified
-**12 source files** were carefully updated across the codebase:
-- 2 files in `stacer-core/Info/`
+**14 source files** were carefully updated across the codebase:
+- 4 files in `stacer-core/Info/` (including 2 critical bug fixes)
 - 2 files in `stacer-core/Utils/`
-- 6 files in `stacer/Pages/` (various submodules)
+- 7 files in `stacer/Pages/` (including 1 critical bug fix)
 - 2 files in `stacer/` (main app and app manager)
 
 ## 🔧 Build Instructions
@@ -88,11 +105,16 @@ ldd output/stacer | grep -E "Qt5|libstdc"
 
 ## 🚀 What This Update Provides
 
+### Critical Fixes
+- 🔴 **No more crashes on modern CPUs** (AMD Ryzen, Intel 13th/14th gen)
+- 🔴 **No more crashes on high core-count systems** (>20 cores/threads)
+- ✅ **Production-ready** on high-performance workstations and servers
+
 ### Compatibility
 - ✅ **Ubuntu 22.04 LTS** (Jammy Jellyfish) - Fully tested
 - ✅ **Ubuntu 24.04 LTS** (Noble Numbat) - Ready
 - ✅ **Debian 11** (Bullseye) - Compatible
-- ✅ **Debian 12** (Bookworm) - Fully tested
+- ✅ **Debian 12** (Bookworm) - Fully tested on AMD Ryzen 9 7950X3D (32 threads)
 - ✅ **Linux Mint 21.x / 22.x** - Compatible
 - ✅ **Pop!_OS 22.04** - Compatible
 - ✅ Any Linux distribution with Qt 5.15+
@@ -155,15 +177,18 @@ chmod +x build/output/stacer
 ## 📝 Version History
 
 ### Version 1.1.1 (November 2024)
-- Fixed all Qt 5.15+ deprecation warnings
+- **CRITICAL:** Fixed segmentation fault on modern CPUs (AMD Ryzen, Intel 13th/14th gen)
+- **CRITICAL:** Fixed crash on high core-count CPUs (>20 cores)
+- Fixed all Qt 5.15+ deprecation warnings (~30 instances)
 - Updated for Ubuntu 22.04 and 24.04 compatibility
 - Prepared codebase for Qt 6 migration
-- No functional changes
+- Tested on AMD Ryzen 9 7950X3D (32 threads)
 
 ### Version 1.1.0 (Original)
 - Last official release by original author
 - Project was marked as abandoned
-- Had deprecation warnings on modern Qt versions
+- Had critical crashes on modern/high-core CPUs
+- Had ~30 deprecation warnings on Qt 5.15+
 
 ## 🙏 Credits
 
