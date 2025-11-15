@@ -76,7 +76,13 @@ See [stacer/CHANGES_SUMMARY.md](stacer/CHANGES_SUMMARY.md) for complete technica
 
 #### Build from Source (All Distributions)
 
-See the [Build from source](#build-from-source-with-cmake-qt-version-qt-5x) section below for detailed instructions.
+**Quick Start:** See the [Build from source](#build-from-source-with-cmake-qt-version-qt-5x) section below.
+
+**Comprehensive Guide:** See [BUILD.md](BUILD.md) for detailed instructions including:
+- Building .deb packages for Debian/Ubuntu
+- Platform-specific dependencies
+- Troubleshooting common build issues
+- Version management and packaging
 
 ### ⚠️ Alternative Methods (Version 1.1.0 - Old Version Without Fixes)
 
@@ -130,6 +136,86 @@ sudo apt-get install -y \
 4. `./output/stacer`
 
 The binary will be available at `build/output/stacer`
+
+## Building a .deb Package (Debian/Ubuntu)
+
+If you want to create a `.deb` package for installation, follow these steps:
+
+### Prerequisites
+```bash
+sudo apt-get install -y \
+    build-essential cmake \
+    qt5-qmake qtbase5-dev \
+    libqt5charts5-dev libqt5svg5-dev \
+    qttools5-dev-tools qttools5-dev \
+    debhelper dh-make devscripts \
+    curl systemd
+```
+
+### Quick Build
+```bash
+cd stacer
+dpkg-buildpackage -us -uc -b
+```
+
+The `.deb` package will be created in the parent directory as `stacer_1.1.1-2_amd64.deb`
+
+### Install the Package
+```bash
+sudo dpkg -i ../stacer_1.1.1-2_amd64.deb
+```
+
+If you encounter dependency errors:
+```bash
+sudo apt-get install -f
+```
+
+### Build Options Explained
+
+- `-us` = Don't sign the source package (for local builds)
+- `-uc` = Don't sign the changes file (for local builds)
+- `-b` = Binary-only build (don't create source package)
+
+### What Gets Built
+
+The build process:
+1. Reads `debian/changelog` for version number (currently 1.1.1-2)
+2. Reads `debian/control` for package metadata and dependencies
+3. Executes `debian/rules` (which calls cmake + make)
+4. Packages everything into a `.deb` file
+
+### Verifying the Package
+
+```bash
+# List package contents
+dpkg-deb -c stacer_1.1.1-2_amd64.deb
+
+# Show package information
+dpkg-deb -I stacer_1.1.1-2_amd64.deb
+
+# Extract without installing (for inspection)
+dpkg-deb -x stacer_1.1.1-2_amd64.deb /tmp/stacer-extract
+```
+
+### Updating the Version
+
+If you make changes and want to create a new package:
+
+1. Edit `stacer/debian/changelog` and add a new entry at the top:
+```debian-changelog
+stacer (1.1.1-3) stable; urgency=medium
+
+  * Your change description here
+
+ -- Your Name <your@email.com>  $(date -R)
+```
+
+2. Rebuild the package:
+```bash
+cd stacer
+dh clean
+dpkg-buildpackage -us -uc -b
+```
 
 ## Screenshots
 
