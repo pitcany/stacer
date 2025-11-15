@@ -28,11 +28,11 @@ The CXX compiler identification is GNU, found in "/home/yannik/Work/stacer/stace
 Detecting C compiler ABI info compiled with the following output:
 Change Dir: /home/yannik/Work/stacer/stacer/obj-x86_64-linux-gnu/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_dc297/fast && gmake[1]: Entering directory '/home/yannik/Work/stacer/stacer/obj-x86_64-linux-gnu/CMakeFiles/CMakeTmp'
-/usr/bin/gmake  -f CMakeFiles/cmTC_dc297.dir/build.make CMakeFiles/cmTC_dc297.dir/build
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_baed8/fast && gmake[1]: Entering directory '/home/yannik/Work/stacer/stacer/obj-x86_64-linux-gnu/CMakeFiles/CMakeTmp'
+/usr/bin/gmake  -f CMakeFiles/cmTC_baed8.dir/build.make CMakeFiles/cmTC_baed8.dir/build
 gmake[2]: Entering directory '/home/yannik/Work/stacer/stacer/obj-x86_64-linux-gnu/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_dc297.dir/CMakeCCompilerABI.c.o
-/usr/bin/cc   -g -O2 -ffile-prefix-map=/home/yannik/Work/stacer/stacer=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -Wformat -Wdate-time -D_FORTIFY_SOURCE=2    -v -o CMakeFiles/cmTC_dc297.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c
+Building C object CMakeFiles/cmTC_baed8.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc   -g -O2 -ffile-prefix-map=/home/yannik/Work/stacer/stacer=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -Wformat -Wdate-time -D_FORTIFY_SOURCE=2    -v -o CMakeFiles/cmTC_baed8.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c
 Using built-in specs.
 COLLECT_GCC=/usr/bin/cc
 OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
@@ -42,8 +42,8 @@ Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~2
 Thread model: posix
 Supported LTO compression algorithms: zlib zstd
 gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04.2) 
-COLLECT_GCC_OPTIONS='-g' '-O2' '-ffile-prefix-map=/home/yannik/Work/stacer/stacer=.' '-flto=auto' '-flto=auto' '-ffat-lto-objects' '-fstack-protector-strong' '-Wformat=1' '-Wdate-time' '-D' '_FORTIFY_SOURCE=2' '-v' '-o' 'CMakeFiles/cmTC_dc297.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_dc297.dir/'
- /usr/lib/gcc/x86_64-linux-gnu/11/cc1 -quiet -v -imultiarch x86_64-linux-gnu -D _FORTIFY_SOURCE=2 /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_dc297.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -g -O2 -Wformat=1 -Wdate-time -version -ffile-prefix-map=/home/yannik/Work/stacer/stacer=. -flto=auto -flto=auto -ffat-lto-objects -fstack-protector-strong -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/cc8LR3V3.s
+COLLECT_GCC_OPTIONS='-g' '-O2' '-ffile-prefix-map=/home/yannik/Work/stacer/stacer=.' '-flto=auto' '-flto=auto' '-ffat-lto-objects' '-fstack-protector-strong' '-Wformat=1' '-Wdate-time' '-D' '_FORTIFY_SOURCE=2' '-v' '-o' 'CMakeFiles/cmTC_baed8.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_baed8.dir/'
+ /usr/lib/gcc/x86_64-linux-gnu/11/cc1 -quiet -v -imultiarch x86_64-linux-gnu -D _FORTIFY_SOURCE=2 /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_baed8.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -g -O2 -Wformat=1 -Wdate-time -version -ffile-prefix-map=/home/yannik/Work/stacer/stacer=. -flto=auto -flto=auto -ffat-lto-objects -fstack-protector-strong -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccXMQRph.s
 GNU C17 (Ubuntu 11.4.0-1ubuntu1~22.04.2) version 11.4.0 (x86_64-linux-gnu)
 	compiled by GNU C version 11.4.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
 
@@ -63,15 +63,15 @@ GNU C17 (Ubuntu 11.4.0-1ubuntu1~22.04.2) version 11.4.0 (x86_64-linux-gnu)
 
 GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
 Compiler executable checksum: 4011c2103cba78949d7e02d0f0047a3d
-COLLECT_GCC_OPTIONS='-g' '-O2' '-ffile-prefix-map=/home/yannik/Work/stacer/stacer=.' '-flto=auto' '-flto=auto' '-ffat-lto-objects' '-fstack-protector-strong' '-Wformat=1' '-Wdate-time' '-D' '_FORTIFY_SOURCE=2' '-v' '-o' 'CMakeFiles/cmTC_dc297.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_dc297.dir/'
- as -v --gdwarf-5 --64 -o CMakeFiles/cmTC_dc297.dir/CMakeCCompilerABI.c.o /tmp/cc8LR3V3.s
+COLLECT_GCC_OPTIONS='-g' '-O2' '-ffile-prefix-map=/home/yannik/Work/stacer/stacer=.' '-flto=auto' '-flto=auto' '-ffat-lto-objects' '-fstack-protector-strong' '-Wformat=1' '-Wdate-time' '-D' '_FORTIFY_SOURCE=2' '-v' '-o' 'CMakeFiles/cmTC_baed8.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_baed8.dir/'
+ as -v --gdwarf-5 --64 -o CMakeFiles/cmTC_baed8.dir/CMakeCCompilerABI.c.o /tmp/ccXMQRph.s
 GNU assembler version 2.38 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.38
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-g' '-O2' '-ffile-prefix-map=/home/yannik/Work/stacer/stacer=.' '-flto=auto' '-flto=auto' '-ffat-lto-objects' '-fstack-protector-strong' '-Wformat=1' '-Wdate-time' '-D' '_FORTIFY_SOURCE=2' '-v' '-o' 'CMakeFiles/cmTC_dc297.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_dc297.dir/CMakeCCompilerABI.c.'
-Linking C executable cmTC_dc297
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dc297.dir/link.txt --verbose=1
-/usr/bin/cc -g -O2 -ffile-prefix-map=/home/yannik/Work/stacer/stacer=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -Wformat -Wdate-time -D_FORTIFY_SOURCE=2  -Wl,-Bsymbolic-functions -flto=auto -ffat-lto-objects -flto=auto -Wl,-z,relro -v -rdynamic CMakeFiles/cmTC_dc297.dir/CMakeCCompilerABI.c.o -o cmTC_dc297 
+COLLECT_GCC_OPTIONS='-g' '-O2' '-ffile-prefix-map=/home/yannik/Work/stacer/stacer=.' '-flto=auto' '-flto=auto' '-ffat-lto-objects' '-fstack-protector-strong' '-Wformat=1' '-Wdate-time' '-D' '_FORTIFY_SOURCE=2' '-v' '-o' 'CMakeFiles/cmTC_baed8.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_baed8.dir/CMakeCCompilerABI.c.'
+Linking C executable cmTC_baed8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_baed8.dir/link.txt --verbose=1
+/usr/bin/cc -g -O2 -ffile-prefix-map=/home/yannik/Work/stacer/stacer=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -Wformat -Wdate-time -D_FORTIFY_SOURCE=2  -Wl,-Bsymbolic-functions -flto=auto -ffat-lto-objects -flto=auto -Wl,-z,relro -v -rdynamic CMakeFiles/cmTC_baed8.dir/CMakeCCompilerABI.c.o -o cmTC_baed8 
 Using built-in specs.
 COLLECT_GCC=/usr/bin/cc
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper
@@ -84,12 +84,12 @@ Supported LTO compression algorithms: zlib zstd
 gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04.2) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-g' '-O2' '-ffile-prefix-map=/home/yannik/Work/stacer/stacer=.' '-flto=auto' '-flto=auto' '-fstack-protector-strong' '-Wformat=1' '-Wdate-time' '-D' '_FORTIFY_SOURCE=2' '-flto=auto' '-ffat-lto-objects' '-flto=auto' '-v' '-rdynamic' '-o' 'cmTC_dc297' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_dc297.'
- /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/cculOW4j.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -flto=auto -flto=auto -flto=auto -flto=auto --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_dc297 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. -Bsymbolic-functions -z relro CMakeFiles/cmTC_dc297.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o
-/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -fresolution=/tmp/cculOW4j.res -flinker-output=pie CMakeFiles/cmTC_dc297.dir/CMakeCCompilerABI.c.o 
-/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -fresolution=/tmp/cculOW4j.res -flinker-output=pie CMakeFiles/cmTC_dc297.dir/CMakeCCompilerABI.c.o 
+COLLECT_GCC_OPTIONS='-g' '-O2' '-ffile-prefix-map=/home/yannik/Work/stacer/stacer=.' '-flto=auto' '-flto=auto' '-fstack-protector-strong' '-Wformat=1' '-Wdate-time' '-D' '_FORTIFY_SOURCE=2' '-flto=auto' '-ffat-lto-objects' '-flto=auto' '-v' '-rdynamic' '-o' 'cmTC_baed8' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_baed8.'
+ /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccIVl3pU.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -flto=auto -flto=auto -flto=auto -flto=auto --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_baed8 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. -Bsymbolic-functions -z relro CMakeFiles/cmTC_baed8.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o
+/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -fresolution=/tmp/ccIVl3pU.res -flinker-output=pie CMakeFiles/cmTC_baed8.dir/CMakeCCompilerABI.c.o 
+/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -fresolution=/tmp/ccIVl3pU.res -flinker-output=pie CMakeFiles/cmTC_baed8.dir/CMakeCCompilerABI.c.o 
 LTO parallelism level set to 32
-/usr/bin/cc @/tmp/ccdDiNPV
+/usr/bin/cc @/tmp/ccGTElJw
 Using built-in specs.
 COLLECT_GCC=/usr/bin/cc
 OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
@@ -99,8 +99,8 @@ Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~2
 Thread model: posix
 Supported LTO compression algorithms: zlib zstd
 gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04.2) 
-COLLECT_GCC_OPTIONS='-c' '-fno-openmp' '-fno-openacc' '-fPIC' '-g' '-O2' '-fcf-protection=full' '-g' '-O2' '-ffile-prefix-map=/home/yannik/Work/stacer/stacer=.' '-fstack-protector-strong' '-ffat-lto-objects' '-v' '-rdynamic' '-mtune=generic' '-march=x86-64'   '-fltrans-output-list=/tmp/ccuCZEsR.ltrans.out' '-fwpa=32' '-fresolution=/tmp/cculOW4j.res' '-flinker-output=pie'
- /usr/lib/gcc/x86_64-linux-gnu/11/lto1 -quiet -dumpbase ./cmTC_dc297.wpa -mtune=generic -march=x86-64 -g -g -O2 -O2 -version -fno-openmp -fno-openacc -fPIC -fcf-protection=full -ffile-prefix-map=/home/yannik/Work/stacer/stacer=. -fstack-protector-strong -ffat-lto-objects -fltrans-output-list=/tmp/ccuCZEsR.ltrans.out -fwpa=32 -fresolution=/tmp/cculOW4j.res -flinker-output=pie @/tmp/ccUy5e00
+COLLECT_GCC_OPTIONS='-c' '-fno-openmp' '-fno-openacc' '-fPIC' '-g' '-O2' '-fcf-protection=full' '-g' '-O2' '-ffile-prefix-map=/home/yannik/Work/stacer/stacer=.' '-fstack-protector-strong' '-ffat-lto-objects' '-v' '-rdynamic' '-mtune=generic' '-march=x86-64'   '-fltrans-output-list=/tmp/ccVz9O7d.ltrans.out' '-fwpa=32' '-fresolution=/tmp/ccIVl3pU.res' '-flinker-output=pie'
+ /usr/lib/gcc/x86_64-linux-gnu/11/lto1 -quiet -dumpbase ./cmTC_baed8.wpa -mtune=generic -march=x86-64 -g -g -O2 -O2 -version -fno-openmp -fno-openacc -fPIC -fcf-protection=full -ffile-prefix-map=/home/yannik/Work/stacer/stacer=. -fstack-protector-strong -ffat-lto-objects -fltrans-output-list=/tmp/ccVz9O7d.ltrans.out -fwpa=32 -fresolution=/tmp/ccIVl3pU.res -flinker-output=pie @/tmp/ccx9tQRC
 GNU GIMPLE (Ubuntu 11.4.0-1ubuntu1~22.04.2) version 11.4.0 (x86_64-linux-gnu)
 	compiled by GNU C version 11.4.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
 
@@ -111,8 +111,8 @@ GNU GIMPLE (Ubuntu 11.4.0-1ubuntu1~22.04.2) version 11.4.0 (x86_64-linux-gnu)
 GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/../lib/:/lib/../lib/x86_64-linux-gnu/:/lib/../lib/../lib/:/usr/lib/../lib/x86_64-linux-gnu/:/usr/lib/../lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-c' '-fno-openmp' '-fno-openacc' '-fPIC' '-g' '-O2' '-fcf-protection=full' '-g' '-O2' '-ffile-prefix-map=/home/yannik/Work/stacer/stacer=.' '-fstack-protector-strong' '-ffat-lto-objects' '-v' '-rdynamic' '-mtune=generic' '-march=x86-64'   '-fltrans-output-list=/tmp/ccuCZEsR.ltrans.out' '-fwpa=32' '-fresolution=/tmp/cculOW4j.res' '-flinker-output=pie' '-dumpdir' './cmTC_dc297.wpa.'
-make -f /tmp/ccL6gQ8s.mk -j32 all
+COLLECT_GCC_OPTIONS='-c' '-fno-openmp' '-fno-openacc' '-fPIC' '-g' '-O2' '-fcf-protection=full' '-g' '-O2' '-ffile-prefix-map=/home/yannik/Work/stacer/stacer=.' '-fstack-protector-strong' '-ffat-lto-objects' '-v' '-rdynamic' '-mtune=generic' '-march=x86-64'   '-fltrans-output-list=/tmp/ccVz9O7d.ltrans.out' '-fwpa=32' '-fresolution=/tmp/ccIVl3pU.res' '-flinker-output=pie' '-dumpdir' './cmTC_baed8.wpa.'
+make -f /tmp/ccJeRQTW.mk -j32 all
 Using built-in specs.
 COLLECT_GCC=/usr/bin/cc
 OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
@@ -122,8 +122,8 @@ Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~2
 Thread model: posix
 Supported LTO compression algorithms: zlib zstd
 gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04.2) 
-COLLECT_GCC_OPTIONS='-c' '-fno-openmp' '-fno-openacc' '-fPIC' '-g' '-O2' '-fcf-protection=full' '-g' '-O2' '-ffile-prefix-map=/home/yannik/Work/stacer/stacer=.' '-fstack-protector-strong' '-ffat-lto-objects' '-v' '-rdynamic' '-mtune=generic' '-march=x86-64'   '-fltrans' '-o' '/tmp/ccuCZEsR.ltrans0.ltrans.o'
- /usr/lib/gcc/x86_64-linux-gnu/11/lto1 -quiet -dumpbase ./cmTC_dc297.ltrans0.ltrans -mtune=generic -march=x86-64 -g -g -O2 -O2 -version -fno-openmp -fno-openacc -fPIC -fcf-protection=full -ffile-prefix-map=/home/yannik/Work/stacer/stacer=. -fstack-protector-strong -ffat-lto-objects -fltrans /tmp/ccuCZEsR.ltrans0.o -o /tmp/ccAPdXRg.s
+COLLECT_GCC_OPTIONS='-c' '-fno-openmp' '-fno-openacc' '-fPIC' '-g' '-O2' '-fcf-protection=full' '-g' '-O2' '-ffile-prefix-map=/home/yannik/Work/stacer/stacer=.' '-fstack-protector-strong' '-ffat-lto-objects' '-v' '-rdynamic' '-mtune=generic' '-march=x86-64'   '-fltrans' '-o' '/tmp/ccVz9O7d.ltrans0.ltrans.o'
+ /usr/lib/gcc/x86_64-linux-gnu/11/lto1 -quiet -dumpbase ./cmTC_baed8.ltrans0.ltrans -mtune=generic -march=x86-64 -g -g -O2 -O2 -version -fno-openmp -fno-openacc -fPIC -fcf-protection=full -ffile-prefix-map=/home/yannik/Work/stacer/stacer=. -fstack-protector-strong -ffat-lto-objects -fltrans /tmp/ccVz9O7d.ltrans0.o -o /tmp/ccUF3u1k.s
 GNU GIMPLE (Ubuntu 11.4.0-1ubuntu1~22.04.2) version 11.4.0 (x86_64-linux-gnu)
 	compiled by GNU C version 11.4.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
 
@@ -132,14 +132,14 @@ GNU GIMPLE (Ubuntu 11.4.0-1ubuntu1~22.04.2) version 11.4.0 (x86_64-linux-gnu)
 	compiled by GNU C version 11.4.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
 
 GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
-COLLECT_GCC_OPTIONS='-c' '-fno-openmp' '-fno-openacc' '-fPIC' '-g' '-O2' '-fcf-protection=full' '-g' '-O2' '-ffile-prefix-map=/home/yannik/Work/stacer/stacer=.' '-fstack-protector-strong' '-ffat-lto-objects' '-v' '-rdynamic' '-mtune=generic' '-march=x86-64'   '-fltrans' '-o' '/tmp/ccuCZEsR.ltrans0.ltrans.o'
- as -v --gdwarf-5 --64 -o /tmp/ccuCZEsR.ltrans0.ltrans.o /tmp/ccAPdXRg.s
+COLLECT_GCC_OPTIONS='-c' '-fno-openmp' '-fno-openacc' '-fPIC' '-g' '-O2' '-fcf-protection=full' '-g' '-O2' '-ffile-prefix-map=/home/yannik/Work/stacer/stacer=.' '-fstack-protector-strong' '-ffat-lto-objects' '-v' '-rdynamic' '-mtune=generic' '-march=x86-64'   '-fltrans' '-o' '/tmp/ccVz9O7d.ltrans0.ltrans.o'
+ as -v --gdwarf-5 --64 -o /tmp/ccVz9O7d.ltrans0.ltrans.o /tmp/ccUF3u1k.s
 GNU assembler version 2.38 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.38
 MAKEFLAGS=w -j32 
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/../lib/:/lib/../lib/x86_64-linux-gnu/:/lib/../lib/../lib/:/usr/lib/../lib/x86_64-linux-gnu/:/usr/lib/../lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-c' '-fno-openmp' '-fno-openacc' '-fPIC' '-g' '-O2' '-fcf-protection=full' '-g' '-O2' '-ffile-prefix-map=/home/yannik/Work/stacer/stacer=.' '-fstack-protector-strong' '-ffat-lto-objects' '-v' '-rdynamic' '-mtune=generic' '-march=x86-64'   '-fltrans' '-o' '/tmp/ccuCZEsR.ltrans0.ltrans.o' '-dumpdir' './cmTC_dc297.ltrans0.ltrans.'
-COLLECT_GCC_OPTIONS='-g' '-O2' '-ffile-prefix-map=/home/yannik/Work/stacer/stacer=.' '-flto=auto' '-flto=auto' '-fstack-protector-strong' '-Wformat=1' '-Wdate-time' '-D' '_FORTIFY_SOURCE=2' '-flto=auto' '-ffat-lto-objects' '-flto=auto' '-v' '-rdynamic' '-o' 'cmTC_dc297' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_dc297.'
+COLLECT_GCC_OPTIONS='-c' '-fno-openmp' '-fno-openacc' '-fPIC' '-g' '-O2' '-fcf-protection=full' '-g' '-O2' '-ffile-prefix-map=/home/yannik/Work/stacer/stacer=.' '-fstack-protector-strong' '-ffat-lto-objects' '-v' '-rdynamic' '-mtune=generic' '-march=x86-64'   '-fltrans' '-o' '/tmp/ccVz9O7d.ltrans0.ltrans.o' '-dumpdir' './cmTC_baed8.ltrans0.ltrans.'
+COLLECT_GCC_OPTIONS='-g' '-O2' '-ffile-prefix-map=/home/yannik/Work/stacer/stacer=.' '-flto=auto' '-flto=auto' '-fstack-protector-strong' '-Wformat=1' '-Wdate-time' '-D' '_FORTIFY_SOURCE=2' '-flto=auto' '-ffat-lto-objects' '-flto=auto' '-v' '-rdynamic' '-o' 'cmTC_baed8' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_baed8.'
 gmake[2]: Leaving directory '/home/yannik/Work/stacer/stacer/obj-x86_64-linux-gnu/CMakeFiles/CMakeTmp'
 gmake[1]: Leaving directory '/home/yannik/Work/stacer/stacer/obj-x86_64-linux-gnu/CMakeFiles/CMakeTmp'
 
@@ -164,11 +164,11 @@ Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /home/yannik/Work/stacer/stacer/obj-x86_64-linux-gnu/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_dc297/fast && gmake[1]: Entering directory '/home/yannik/Work/stacer/stacer/obj-x86_64-linux-gnu/CMakeFiles/CMakeTmp']
-  ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_dc297.dir/build.make CMakeFiles/cmTC_dc297.dir/build]
+  ignore line: [Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_baed8/fast && gmake[1]: Entering directory '/home/yannik/Work/stacer/stacer/obj-x86_64-linux-gnu/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_baed8.dir/build.make CMakeFiles/cmTC_baed8.dir/build]
   ignore line: [gmake[2]: Entering directory '/home/yannik/Work/stacer/stacer/obj-x86_64-linux-gnu/CMakeFiles/CMakeTmp']
-  ignore line: [Building C object CMakeFiles/cmTC_dc297.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/usr/bin/cc   -g -O2 -ffile-prefix-map=/home/yannik/Work/stacer/stacer=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -Wformat -Wdate-time -D_FORTIFY_SOURCE=2    -v -o CMakeFiles/cmTC_dc297.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c]
+  ignore line: [Building C object CMakeFiles/cmTC_baed8.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc   -g -O2 -ffile-prefix-map=/home/yannik/Work/stacer/stacer=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -Wformat -Wdate-time -D_FORTIFY_SOURCE=2    -v -o CMakeFiles/cmTC_baed8.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/cc]
   ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
@@ -178,8 +178,8 @@ Parsed C implicit link information from above output:
   ignore line: [Thread model: posix]
   ignore line: [Supported LTO compression algorithms: zlib zstd]
   ignore line: [gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04.2) ]
-  ignore line: [COLLECT_GCC_OPTIONS='-g' '-O2' '-ffile-prefix-map=/home/yannik/Work/stacer/stacer=.' '-flto=auto' '-flto=auto' '-ffat-lto-objects' '-fstack-protector-strong' '-Wformat=1' '-Wdate-time' '-D' '_FORTIFY_SOURCE=2' '-v' '-o' 'CMakeFiles/cmTC_dc297.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_dc297.dir/']
-  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/11/cc1 -quiet -v -imultiarch x86_64-linux-gnu -D _FORTIFY_SOURCE=2 /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_dc297.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -g -O2 -Wformat=1 -Wdate-time -version -ffile-prefix-map=/home/yannik/Work/stacer/stacer=. -flto=auto -flto=auto -ffat-lto-objects -fstack-protector-strong -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/cc8LR3V3.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-g' '-O2' '-ffile-prefix-map=/home/yannik/Work/stacer/stacer=.' '-flto=auto' '-flto=auto' '-ffat-lto-objects' '-fstack-protector-strong' '-Wformat=1' '-Wdate-time' '-D' '_FORTIFY_SOURCE=2' '-v' '-o' 'CMakeFiles/cmTC_baed8.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_baed8.dir/']
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/11/cc1 -quiet -v -imultiarch x86_64-linux-gnu -D _FORTIFY_SOURCE=2 /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_baed8.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -g -O2 -Wformat=1 -Wdate-time -version -ffile-prefix-map=/home/yannik/Work/stacer/stacer=. -flto=auto -flto=auto -ffat-lto-objects -fstack-protector-strong -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccXMQRph.s]
   ignore line: [GNU C17 (Ubuntu 11.4.0-1ubuntu1~22.04.2) version 11.4.0 (x86_64-linux-gnu)]
   ignore line: [	compiled by GNU C version 11.4.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
   ignore line: []
@@ -199,15 +199,15 @@ Parsed C implicit link information from above output:
   ignore line: []
   ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
   ignore line: [Compiler executable checksum: 4011c2103cba78949d7e02d0f0047a3d]
-  ignore line: [COLLECT_GCC_OPTIONS='-g' '-O2' '-ffile-prefix-map=/home/yannik/Work/stacer/stacer=.' '-flto=auto' '-flto=auto' '-ffat-lto-objects' '-fstack-protector-strong' '-Wformat=1' '-Wdate-time' '-D' '_FORTIFY_SOURCE=2' '-v' '-o' 'CMakeFiles/cmTC_dc297.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_dc297.dir/']
-  ignore line: [ as -v --gdwarf-5 --64 -o CMakeFiles/cmTC_dc297.dir/CMakeCCompilerABI.c.o /tmp/cc8LR3V3.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-g' '-O2' '-ffile-prefix-map=/home/yannik/Work/stacer/stacer=.' '-flto=auto' '-flto=auto' '-ffat-lto-objects' '-fstack-protector-strong' '-Wformat=1' '-Wdate-time' '-D' '_FORTIFY_SOURCE=2' '-v' '-o' 'CMakeFiles/cmTC_baed8.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_baed8.dir/']
+  ignore line: [ as -v --gdwarf-5 --64 -o CMakeFiles/cmTC_baed8.dir/CMakeCCompilerABI.c.o /tmp/ccXMQRph.s]
   ignore line: [GNU assembler version 2.38 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.38]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-g' '-O2' '-ffile-prefix-map=/home/yannik/Work/stacer/stacer=.' '-flto=auto' '-flto=auto' '-ffat-lto-objects' '-fstack-protector-strong' '-Wformat=1' '-Wdate-time' '-D' '_FORTIFY_SOURCE=2' '-v' '-o' 'CMakeFiles/cmTC_dc297.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_dc297.dir/CMakeCCompilerABI.c.']
-  ignore line: [Linking C executable cmTC_dc297]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dc297.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/cc -g -O2 -ffile-prefix-map=/home/yannik/Work/stacer/stacer=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -Wformat -Wdate-time -D_FORTIFY_SOURCE=2  -Wl -Bsymbolic-functions -flto=auto -ffat-lto-objects -flto=auto -Wl -z relro -v -rdynamic CMakeFiles/cmTC_dc297.dir/CMakeCCompilerABI.c.o -o cmTC_dc297 ]
+  ignore line: [COLLECT_GCC_OPTIONS='-g' '-O2' '-ffile-prefix-map=/home/yannik/Work/stacer/stacer=.' '-flto=auto' '-flto=auto' '-ffat-lto-objects' '-fstack-protector-strong' '-Wformat=1' '-Wdate-time' '-D' '_FORTIFY_SOURCE=2' '-v' '-o' 'CMakeFiles/cmTC_baed8.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_baed8.dir/CMakeCCompilerABI.c.']
+  ignore line: [Linking C executable cmTC_baed8]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_baed8.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc -g -O2 -ffile-prefix-map=/home/yannik/Work/stacer/stacer=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -Wformat -Wdate-time -D_FORTIFY_SOURCE=2  -Wl -Bsymbolic-functions -flto=auto -ffat-lto-objects -flto=auto -Wl -z relro -v -rdynamic CMakeFiles/cmTC_baed8.dir/CMakeCCompilerABI.c.o -o cmTC_baed8 ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/cc]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper]
@@ -220,13 +220,13 @@ Parsed C implicit link information from above output:
   ignore line: [gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04.2) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-g' '-O2' '-ffile-prefix-map=/home/yannik/Work/stacer/stacer=.' '-flto=auto' '-flto=auto' '-fstack-protector-strong' '-Wformat=1' '-Wdate-time' '-D' '_FORTIFY_SOURCE=2' '-flto=auto' '-ffat-lto-objects' '-flto=auto' '-v' '-rdynamic' '-o' 'cmTC_dc297' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_dc297.']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/cculOW4j.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -flto=auto -flto=auto -flto=auto -flto=auto --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_dc297 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. -Bsymbolic-functions -z relro CMakeFiles/cmTC_dc297.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-g' '-O2' '-ffile-prefix-map=/home/yannik/Work/stacer/stacer=.' '-flto=auto' '-flto=auto' '-fstack-protector-strong' '-Wformat=1' '-Wdate-time' '-D' '_FORTIFY_SOURCE=2' '-flto=auto' '-ffat-lto-objects' '-flto=auto' '-v' '-rdynamic' '-o' 'cmTC_baed8' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_baed8.']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccIVl3pU.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -flto=auto -flto=auto -flto=auto -flto=auto --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_baed8 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. -Bsymbolic-functions -z relro CMakeFiles/cmTC_baed8.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/11/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/cculOW4j.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccIVl3pU.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -249,7 +249,7 @@ Parsed C implicit link information from above output:
     arg [-znow] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_dc297] ==> ignore
+    arg [cmTC_baed8] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o]
@@ -263,7 +263,7 @@ Parsed C implicit link information from above output:
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/11/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../..]
     arg [-Bsymbolic-functions] ==> ignore
     arg [-zrelro] ==> ignore
-    arg [CMakeFiles/cmTC_dc297.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTC_baed8.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [--push-state] ==> ignore
     arg [--as-needed] ==> ignore
@@ -297,11 +297,11 @@ Parsed C implicit link information from above output:
 Detecting CXX compiler ABI info compiled with the following output:
 Change Dir: /home/yannik/Work/stacer/stacer/obj-x86_64-linux-gnu/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_02ee5/fast && gmake[1]: Entering directory '/home/yannik/Work/stacer/stacer/obj-x86_64-linux-gnu/CMakeFiles/CMakeTmp'
-/usr/bin/gmake  -f CMakeFiles/cmTC_02ee5.dir/build.make CMakeFiles/cmTC_02ee5.dir/build
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_2c478/fast && gmake[1]: Entering directory '/home/yannik/Work/stacer/stacer/obj-x86_64-linux-gnu/CMakeFiles/CMakeTmp'
+/usr/bin/gmake  -f CMakeFiles/cmTC_2c478.dir/build.make CMakeFiles/cmTC_2c478.dir/build
 gmake[2]: Entering directory '/home/yannik/Work/stacer/stacer/obj-x86_64-linux-gnu/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_02ee5.dir/CMakeCXXCompilerABI.cpp.o
-/usr/bin/c++   -g -O2 -ffile-prefix-map=/home/yannik/Work/stacer/stacer=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -Wformat -Wdate-time -D_FORTIFY_SOURCE=2    -v -o CMakeFiles/cmTC_02ee5.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp
+Building CXX object CMakeFiles/cmTC_2c478.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++   -g -O2 -ffile-prefix-map=/home/yannik/Work/stacer/stacer=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -Wformat -Wdate-time -D_FORTIFY_SOURCE=2    -v -o CMakeFiles/cmTC_2c478.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp
 Using built-in specs.
 COLLECT_GCC=/usr/bin/c++
 OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
@@ -311,8 +311,8 @@ Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~2
 Thread model: posix
 Supported LTO compression algorithms: zlib zstd
 gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04.2) 
-COLLECT_GCC_OPTIONS='-g' '-O2' '-ffile-prefix-map=/home/yannik/Work/stacer/stacer=.' '-flto=auto' '-flto=auto' '-ffat-lto-objects' '-fstack-protector-strong' '-Wformat=1' '-Wdate-time' '-D' '_FORTIFY_SOURCE=2' '-v' '-o' 'CMakeFiles/cmTC_02ee5.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_02ee5.dir/'
- /usr/lib/gcc/x86_64-linux-gnu/11/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE -D _FORTIFY_SOURCE=2 /usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_02ee5.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -g -O2 -Wformat=1 -Wdate-time -version -ffile-prefix-map=/home/yannik/Work/stacer/stacer=. -flto=auto -flto=auto -ffat-lto-objects -fstack-protector-strong -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccTJQd1X.s
+COLLECT_GCC_OPTIONS='-g' '-O2' '-ffile-prefix-map=/home/yannik/Work/stacer/stacer=.' '-flto=auto' '-flto=auto' '-ffat-lto-objects' '-fstack-protector-strong' '-Wformat=1' '-Wdate-time' '-D' '_FORTIFY_SOURCE=2' '-v' '-o' 'CMakeFiles/cmTC_2c478.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_2c478.dir/'
+ /usr/lib/gcc/x86_64-linux-gnu/11/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE -D _FORTIFY_SOURCE=2 /usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_2c478.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -g -O2 -Wformat=1 -Wdate-time -version -ffile-prefix-map=/home/yannik/Work/stacer/stacer=. -flto=auto -flto=auto -ffat-lto-objects -fstack-protector-strong -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccpKMNhD.s
 GNU C++17 (Ubuntu 11.4.0-1ubuntu1~22.04.2) version 11.4.0 (x86_64-linux-gnu)
 	compiled by GNU C version 11.4.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
 
@@ -336,15 +336,15 @@ GNU C++17 (Ubuntu 11.4.0-1ubuntu1~22.04.2) version 11.4.0 (x86_64-linux-gnu)
 
 GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
 Compiler executable checksum: 6c87588fc345655b93b8c25f48f88886
-COLLECT_GCC_OPTIONS='-g' '-O2' '-ffile-prefix-map=/home/yannik/Work/stacer/stacer=.' '-flto=auto' '-flto=auto' '-ffat-lto-objects' '-fstack-protector-strong' '-Wformat=1' '-Wdate-time' '-D' '_FORTIFY_SOURCE=2' '-v' '-o' 'CMakeFiles/cmTC_02ee5.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_02ee5.dir/'
- as -v --gdwarf-5 --64 -o CMakeFiles/cmTC_02ee5.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccTJQd1X.s
+COLLECT_GCC_OPTIONS='-g' '-O2' '-ffile-prefix-map=/home/yannik/Work/stacer/stacer=.' '-flto=auto' '-flto=auto' '-ffat-lto-objects' '-fstack-protector-strong' '-Wformat=1' '-Wdate-time' '-D' '_FORTIFY_SOURCE=2' '-v' '-o' 'CMakeFiles/cmTC_2c478.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_2c478.dir/'
+ as -v --gdwarf-5 --64 -o CMakeFiles/cmTC_2c478.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccpKMNhD.s
 GNU assembler version 2.38 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.38
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-g' '-O2' '-ffile-prefix-map=/home/yannik/Work/stacer/stacer=.' '-flto=auto' '-flto=auto' '-ffat-lto-objects' '-fstack-protector-strong' '-Wformat=1' '-Wdate-time' '-D' '_FORTIFY_SOURCE=2' '-v' '-o' 'CMakeFiles/cmTC_02ee5.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_02ee5.dir/CMakeCXXCompilerABI.cpp.'
-Linking CXX executable cmTC_02ee5
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_02ee5.dir/link.txt --verbose=1
-/usr/bin/c++ -g -O2 -ffile-prefix-map=/home/yannik/Work/stacer/stacer=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -Wformat -Wdate-time -D_FORTIFY_SOURCE=2  -Wl,-Bsymbolic-functions -flto=auto -ffat-lto-objects -flto=auto -Wl,-z,relro -v -rdynamic CMakeFiles/cmTC_02ee5.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_02ee5 
+COLLECT_GCC_OPTIONS='-g' '-O2' '-ffile-prefix-map=/home/yannik/Work/stacer/stacer=.' '-flto=auto' '-flto=auto' '-ffat-lto-objects' '-fstack-protector-strong' '-Wformat=1' '-Wdate-time' '-D' '_FORTIFY_SOURCE=2' '-v' '-o' 'CMakeFiles/cmTC_2c478.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_2c478.dir/CMakeCXXCompilerABI.cpp.'
+Linking CXX executable cmTC_2c478
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2c478.dir/link.txt --verbose=1
+/usr/bin/c++ -g -O2 -ffile-prefix-map=/home/yannik/Work/stacer/stacer=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -Wformat -Wdate-time -D_FORTIFY_SOURCE=2  -Wl,-Bsymbolic-functions -flto=auto -ffat-lto-objects -flto=auto -Wl,-z,relro -v -rdynamic CMakeFiles/cmTC_2c478.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_2c478 
 Using built-in specs.
 COLLECT_GCC=/usr/bin/c++
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper
@@ -357,12 +357,12 @@ Supported LTO compression algorithms: zlib zstd
 gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04.2) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-g' '-O2' '-ffile-prefix-map=/home/yannik/Work/stacer/stacer=.' '-flto=auto' '-flto=auto' '-fstack-protector-strong' '-Wformat=1' '-Wdate-time' '-D' '_FORTIFY_SOURCE=2' '-flto=auto' '-ffat-lto-objects' '-flto=auto' '-v' '-rdynamic' '-o' 'cmTC_02ee5' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_02ee5.'
- /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccu5uQWs.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -flto=auto -flto=auto -flto=auto -flto=auto --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_02ee5 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. -Bsymbolic-functions -z relro CMakeFiles/cmTC_02ee5.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o
-/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -fresolution=/tmp/ccu5uQWs.res -flinker-output=pie CMakeFiles/cmTC_02ee5.dir/CMakeCXXCompilerABI.cpp.o 
-/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -fresolution=/tmp/ccu5uQWs.res -flinker-output=pie CMakeFiles/cmTC_02ee5.dir/CMakeCXXCompilerABI.cpp.o 
+COLLECT_GCC_OPTIONS='-g' '-O2' '-ffile-prefix-map=/home/yannik/Work/stacer/stacer=.' '-flto=auto' '-flto=auto' '-fstack-protector-strong' '-Wformat=1' '-Wdate-time' '-D' '_FORTIFY_SOURCE=2' '-flto=auto' '-ffat-lto-objects' '-flto=auto' '-v' '-rdynamic' '-o' 'cmTC_2c478' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_2c478.'
+ /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccXGQOnS.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -flto=auto -flto=auto -flto=auto -flto=auto --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_2c478 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. -Bsymbolic-functions -z relro CMakeFiles/cmTC_2c478.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o
+/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -fresolution=/tmp/ccXGQOnS.res -flinker-output=pie CMakeFiles/cmTC_2c478.dir/CMakeCXXCompilerABI.cpp.o 
+/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -fresolution=/tmp/ccXGQOnS.res -flinker-output=pie CMakeFiles/cmTC_2c478.dir/CMakeCXXCompilerABI.cpp.o 
 LTO parallelism level set to 32
-/usr/bin/c++ @/tmp/ccAbSnXn
+/usr/bin/c++ @/tmp/cc99YfUn
 Using built-in specs.
 COLLECT_GCC=/usr/bin/c++
 OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
@@ -372,8 +372,8 @@ Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~2
 Thread model: posix
 Supported LTO compression algorithms: zlib zstd
 gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04.2) 
-COLLECT_GCC_OPTIONS='-c' '-fno-openmp' '-fno-openacc' '-fPIC' '-g' '-O2' '-fcf-protection=full' '-g' '-O2' '-ffile-prefix-map=/home/yannik/Work/stacer/stacer=.' '-fstack-protector-strong' '-ffat-lto-objects' '-v' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64'   '-fltrans-output-list=/tmp/ccuTQrFW.ltrans.out' '-fwpa=32' '-fresolution=/tmp/ccu5uQWs.res' '-flinker-output=pie' '-shared-libgcc'
- /usr/lib/gcc/x86_64-linux-gnu/11/lto1 -quiet -dumpbase ./cmTC_02ee5.wpa -mtune=generic -march=x86-64 -g -g -O2 -O2 -version -fno-openmp -fno-openacc -fPIC -fcf-protection=full -ffile-prefix-map=/home/yannik/Work/stacer/stacer=. -fstack-protector-strong -ffat-lto-objects -fltrans-output-list=/tmp/ccuTQrFW.ltrans.out -fwpa=32 -fresolution=/tmp/ccu5uQWs.res -flinker-output=pie @/tmp/ccxpQUir
+COLLECT_GCC_OPTIONS='-c' '-fno-openmp' '-fno-openacc' '-fPIC' '-g' '-O2' '-fcf-protection=full' '-g' '-O2' '-ffile-prefix-map=/home/yannik/Work/stacer/stacer=.' '-fstack-protector-strong' '-ffat-lto-objects' '-v' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64'   '-fltrans-output-list=/tmp/ccIEARbL.ltrans.out' '-fwpa=32' '-fresolution=/tmp/ccXGQOnS.res' '-flinker-output=pie' '-shared-libgcc'
+ /usr/lib/gcc/x86_64-linux-gnu/11/lto1 -quiet -dumpbase ./cmTC_2c478.wpa -mtune=generic -march=x86-64 -g -g -O2 -O2 -version -fno-openmp -fno-openacc -fPIC -fcf-protection=full -ffile-prefix-map=/home/yannik/Work/stacer/stacer=. -fstack-protector-strong -ffat-lto-objects -fltrans-output-list=/tmp/ccIEARbL.ltrans.out -fwpa=32 -fresolution=/tmp/ccXGQOnS.res -flinker-output=pie @/tmp/ccAqPEG6
 GNU GIMPLE (Ubuntu 11.4.0-1ubuntu1~22.04.2) version 11.4.0 (x86_64-linux-gnu)
 	compiled by GNU C version 11.4.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
 
@@ -384,8 +384,8 @@ GNU GIMPLE (Ubuntu 11.4.0-1ubuntu1~22.04.2) version 11.4.0 (x86_64-linux-gnu)
 GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/../lib/:/lib/../lib/x86_64-linux-gnu/:/lib/../lib/../lib/:/usr/lib/../lib/x86_64-linux-gnu/:/usr/lib/../lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-c' '-fno-openmp' '-fno-openacc' '-fPIC' '-g' '-O2' '-fcf-protection=full' '-g' '-O2' '-ffile-prefix-map=/home/yannik/Work/stacer/stacer=.' '-fstack-protector-strong' '-ffat-lto-objects' '-v' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64'   '-fltrans-output-list=/tmp/ccuTQrFW.ltrans.out' '-fwpa=32' '-fresolution=/tmp/ccu5uQWs.res' '-flinker-output=pie' '-shared-libgcc' '-dumpdir' './cmTC_02ee5.wpa.'
-make -f /tmp/ccBxvOjd.mk -j32 all
+COLLECT_GCC_OPTIONS='-c' '-fno-openmp' '-fno-openacc' '-fPIC' '-g' '-O2' '-fcf-protection=full' '-g' '-O2' '-ffile-prefix-map=/home/yannik/Work/stacer/stacer=.' '-fstack-protector-strong' '-ffat-lto-objects' '-v' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64'   '-fltrans-output-list=/tmp/ccIEARbL.ltrans.out' '-fwpa=32' '-fresolution=/tmp/ccXGQOnS.res' '-flinker-output=pie' '-shared-libgcc' '-dumpdir' './cmTC_2c478.wpa.'
+make -f /tmp/ccmnpQaQ.mk -j32 all
 Using built-in specs.
 COLLECT_GCC=/usr/bin/c++
 OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
@@ -395,8 +395,8 @@ Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~2
 Thread model: posix
 Supported LTO compression algorithms: zlib zstd
 gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04.2) 
-COLLECT_GCC_OPTIONS='-c' '-fno-openmp' '-fno-openacc' '-fPIC' '-g' '-O2' '-fcf-protection=full' '-g' '-O2' '-ffile-prefix-map=/home/yannik/Work/stacer/stacer=.' '-fstack-protector-strong' '-ffat-lto-objects' '-v' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64'   '-fltrans' '-o' '/tmp/ccuTQrFW.ltrans0.ltrans.o' '-shared-libgcc'
- /usr/lib/gcc/x86_64-linux-gnu/11/lto1 -quiet -dumpbase ./cmTC_02ee5.ltrans0.ltrans -mtune=generic -march=x86-64 -g -g -O2 -O2 -version -fno-openmp -fno-openacc -fPIC -fcf-protection=full -ffile-prefix-map=/home/yannik/Work/stacer/stacer=. -fstack-protector-strong -ffat-lto-objects -fltrans /tmp/ccuTQrFW.ltrans0.o -o /tmp/cclosV9V.s
+COLLECT_GCC_OPTIONS='-c' '-fno-openmp' '-fno-openacc' '-fPIC' '-g' '-O2' '-fcf-protection=full' '-g' '-O2' '-ffile-prefix-map=/home/yannik/Work/stacer/stacer=.' '-fstack-protector-strong' '-ffat-lto-objects' '-v' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64'   '-fltrans' '-o' '/tmp/ccIEARbL.ltrans0.ltrans.o' '-shared-libgcc'
+ /usr/lib/gcc/x86_64-linux-gnu/11/lto1 -quiet -dumpbase ./cmTC_2c478.ltrans0.ltrans -mtune=generic -march=x86-64 -g -g -O2 -O2 -version -fno-openmp -fno-openacc -fPIC -fcf-protection=full -ffile-prefix-map=/home/yannik/Work/stacer/stacer=. -fstack-protector-strong -ffat-lto-objects -fltrans /tmp/ccIEARbL.ltrans0.o -o /tmp/ccXMq18z.s
 GNU GIMPLE (Ubuntu 11.4.0-1ubuntu1~22.04.2) version 11.4.0 (x86_64-linux-gnu)
 	compiled by GNU C version 11.4.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
 
@@ -405,14 +405,14 @@ GNU GIMPLE (Ubuntu 11.4.0-1ubuntu1~22.04.2) version 11.4.0 (x86_64-linux-gnu)
 	compiled by GNU C version 11.4.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
 
 GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
-COLLECT_GCC_OPTIONS='-c' '-fno-openmp' '-fno-openacc' '-fPIC' '-g' '-O2' '-fcf-protection=full' '-g' '-O2' '-ffile-prefix-map=/home/yannik/Work/stacer/stacer=.' '-fstack-protector-strong' '-ffat-lto-objects' '-v' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64'   '-fltrans' '-o' '/tmp/ccuTQrFW.ltrans0.ltrans.o' '-shared-libgcc'
- as -v --gdwarf-5 --64 -o /tmp/ccuTQrFW.ltrans0.ltrans.o /tmp/cclosV9V.s
+COLLECT_GCC_OPTIONS='-c' '-fno-openmp' '-fno-openacc' '-fPIC' '-g' '-O2' '-fcf-protection=full' '-g' '-O2' '-ffile-prefix-map=/home/yannik/Work/stacer/stacer=.' '-fstack-protector-strong' '-ffat-lto-objects' '-v' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64'   '-fltrans' '-o' '/tmp/ccIEARbL.ltrans0.ltrans.o' '-shared-libgcc'
+ as -v --gdwarf-5 --64 -o /tmp/ccIEARbL.ltrans0.ltrans.o /tmp/ccXMq18z.s
 GNU assembler version 2.38 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.38
 MAKEFLAGS=w -j32 
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/../lib/:/lib/../lib/x86_64-linux-gnu/:/lib/../lib/../lib/:/usr/lib/../lib/x86_64-linux-gnu/:/usr/lib/../lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-c' '-fno-openmp' '-fno-openacc' '-fPIC' '-g' '-O2' '-fcf-protection=full' '-g' '-O2' '-ffile-prefix-map=/home/yannik/Work/stacer/stacer=.' '-fstack-protector-strong' '-ffat-lto-objects' '-v' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64'   '-fltrans' '-o' '/tmp/ccuTQrFW.ltrans0.ltrans.o' '-shared-libgcc' '-dumpdir' './cmTC_02ee5.ltrans0.ltrans.'
-COLLECT_GCC_OPTIONS='-g' '-O2' '-ffile-prefix-map=/home/yannik/Work/stacer/stacer=.' '-flto=auto' '-flto=auto' '-fstack-protector-strong' '-Wformat=1' '-Wdate-time' '-D' '_FORTIFY_SOURCE=2' '-flto=auto' '-ffat-lto-objects' '-flto=auto' '-v' '-rdynamic' '-o' 'cmTC_02ee5' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_02ee5.'
+COLLECT_GCC_OPTIONS='-c' '-fno-openmp' '-fno-openacc' '-fPIC' '-g' '-O2' '-fcf-protection=full' '-g' '-O2' '-ffile-prefix-map=/home/yannik/Work/stacer/stacer=.' '-fstack-protector-strong' '-ffat-lto-objects' '-v' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64'   '-fltrans' '-o' '/tmp/ccIEARbL.ltrans0.ltrans.o' '-shared-libgcc' '-dumpdir' './cmTC_2c478.ltrans0.ltrans.'
+COLLECT_GCC_OPTIONS='-g' '-O2' '-ffile-prefix-map=/home/yannik/Work/stacer/stacer=.' '-flto=auto' '-flto=auto' '-fstack-protector-strong' '-Wformat=1' '-Wdate-time' '-D' '_FORTIFY_SOURCE=2' '-flto=auto' '-ffat-lto-objects' '-flto=auto' '-v' '-rdynamic' '-o' 'cmTC_2c478' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_2c478.'
 gmake[2]: Leaving directory '/home/yannik/Work/stacer/stacer/obj-x86_64-linux-gnu/CMakeFiles/CMakeTmp'
 gmake[1]: Leaving directory '/home/yannik/Work/stacer/stacer/obj-x86_64-linux-gnu/CMakeFiles/CMakeTmp'
 
@@ -443,11 +443,11 @@ Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /home/yannik/Work/stacer/stacer/obj-x86_64-linux-gnu/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_02ee5/fast && gmake[1]: Entering directory '/home/yannik/Work/stacer/stacer/obj-x86_64-linux-gnu/CMakeFiles/CMakeTmp']
-  ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_02ee5.dir/build.make CMakeFiles/cmTC_02ee5.dir/build]
+  ignore line: [Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_2c478/fast && gmake[1]: Entering directory '/home/yannik/Work/stacer/stacer/obj-x86_64-linux-gnu/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_2c478.dir/build.make CMakeFiles/cmTC_2c478.dir/build]
   ignore line: [gmake[2]: Entering directory '/home/yannik/Work/stacer/stacer/obj-x86_64-linux-gnu/CMakeFiles/CMakeTmp']
-  ignore line: [Building CXX object CMakeFiles/cmTC_02ee5.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/usr/bin/c++   -g -O2 -ffile-prefix-map=/home/yannik/Work/stacer/stacer=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -Wformat -Wdate-time -D_FORTIFY_SOURCE=2    -v -o CMakeFiles/cmTC_02ee5.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Building CXX object CMakeFiles/cmTC_2c478.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++   -g -O2 -ffile-prefix-map=/home/yannik/Work/stacer/stacer=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -Wformat -Wdate-time -D_FORTIFY_SOURCE=2    -v -o CMakeFiles/cmTC_2c478.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/c++]
   ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
@@ -457,8 +457,8 @@ Parsed CXX implicit link information from above output:
   ignore line: [Thread model: posix]
   ignore line: [Supported LTO compression algorithms: zlib zstd]
   ignore line: [gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04.2) ]
-  ignore line: [COLLECT_GCC_OPTIONS='-g' '-O2' '-ffile-prefix-map=/home/yannik/Work/stacer/stacer=.' '-flto=auto' '-flto=auto' '-ffat-lto-objects' '-fstack-protector-strong' '-Wformat=1' '-Wdate-time' '-D' '_FORTIFY_SOURCE=2' '-v' '-o' 'CMakeFiles/cmTC_02ee5.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_02ee5.dir/']
-  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/11/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE -D _FORTIFY_SOURCE=2 /usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_02ee5.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -g -O2 -Wformat=1 -Wdate-time -version -ffile-prefix-map=/home/yannik/Work/stacer/stacer=. -flto=auto -flto=auto -ffat-lto-objects -fstack-protector-strong -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccTJQd1X.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-g' '-O2' '-ffile-prefix-map=/home/yannik/Work/stacer/stacer=.' '-flto=auto' '-flto=auto' '-ffat-lto-objects' '-fstack-protector-strong' '-Wformat=1' '-Wdate-time' '-D' '_FORTIFY_SOURCE=2' '-v' '-o' 'CMakeFiles/cmTC_2c478.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_2c478.dir/']
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/11/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE -D _FORTIFY_SOURCE=2 /usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_2c478.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -g -O2 -Wformat=1 -Wdate-time -version -ffile-prefix-map=/home/yannik/Work/stacer/stacer=. -flto=auto -flto=auto -ffat-lto-objects -fstack-protector-strong -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccpKMNhD.s]
   ignore line: [GNU C++17 (Ubuntu 11.4.0-1ubuntu1~22.04.2) version 11.4.0 (x86_64-linux-gnu)]
   ignore line: [	compiled by GNU C version 11.4.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
   ignore line: []
@@ -482,15 +482,15 @@ Parsed CXX implicit link information from above output:
   ignore line: []
   ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
   ignore line: [Compiler executable checksum: 6c87588fc345655b93b8c25f48f88886]
-  ignore line: [COLLECT_GCC_OPTIONS='-g' '-O2' '-ffile-prefix-map=/home/yannik/Work/stacer/stacer=.' '-flto=auto' '-flto=auto' '-ffat-lto-objects' '-fstack-protector-strong' '-Wformat=1' '-Wdate-time' '-D' '_FORTIFY_SOURCE=2' '-v' '-o' 'CMakeFiles/cmTC_02ee5.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_02ee5.dir/']
-  ignore line: [ as -v --gdwarf-5 --64 -o CMakeFiles/cmTC_02ee5.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccTJQd1X.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-g' '-O2' '-ffile-prefix-map=/home/yannik/Work/stacer/stacer=.' '-flto=auto' '-flto=auto' '-ffat-lto-objects' '-fstack-protector-strong' '-Wformat=1' '-Wdate-time' '-D' '_FORTIFY_SOURCE=2' '-v' '-o' 'CMakeFiles/cmTC_2c478.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_2c478.dir/']
+  ignore line: [ as -v --gdwarf-5 --64 -o CMakeFiles/cmTC_2c478.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccpKMNhD.s]
   ignore line: [GNU assembler version 2.38 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.38]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-g' '-O2' '-ffile-prefix-map=/home/yannik/Work/stacer/stacer=.' '-flto=auto' '-flto=auto' '-ffat-lto-objects' '-fstack-protector-strong' '-Wformat=1' '-Wdate-time' '-D' '_FORTIFY_SOURCE=2' '-v' '-o' 'CMakeFiles/cmTC_02ee5.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_02ee5.dir/CMakeCXXCompilerABI.cpp.']
-  ignore line: [Linking CXX executable cmTC_02ee5]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_02ee5.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/c++ -g -O2 -ffile-prefix-map=/home/yannik/Work/stacer/stacer=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -Wformat -Wdate-time -D_FORTIFY_SOURCE=2  -Wl -Bsymbolic-functions -flto=auto -ffat-lto-objects -flto=auto -Wl -z relro -v -rdynamic CMakeFiles/cmTC_02ee5.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_02ee5 ]
+  ignore line: [COLLECT_GCC_OPTIONS='-g' '-O2' '-ffile-prefix-map=/home/yannik/Work/stacer/stacer=.' '-flto=auto' '-flto=auto' '-ffat-lto-objects' '-fstack-protector-strong' '-Wformat=1' '-Wdate-time' '-D' '_FORTIFY_SOURCE=2' '-v' '-o' 'CMakeFiles/cmTC_2c478.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_2c478.dir/CMakeCXXCompilerABI.cpp.']
+  ignore line: [Linking CXX executable cmTC_2c478]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2c478.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++ -g -O2 -ffile-prefix-map=/home/yannik/Work/stacer/stacer=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -Wformat -Wdate-time -D_FORTIFY_SOURCE=2  -Wl -Bsymbolic-functions -flto=auto -ffat-lto-objects -flto=auto -Wl -z relro -v -rdynamic CMakeFiles/cmTC_2c478.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_2c478 ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/c++]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper]
@@ -503,13 +503,13 @@ Parsed CXX implicit link information from above output:
   ignore line: [gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04.2) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-g' '-O2' '-ffile-prefix-map=/home/yannik/Work/stacer/stacer=.' '-flto=auto' '-flto=auto' '-fstack-protector-strong' '-Wformat=1' '-Wdate-time' '-D' '_FORTIFY_SOURCE=2' '-flto=auto' '-ffat-lto-objects' '-flto=auto' '-v' '-rdynamic' '-o' 'cmTC_02ee5' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_02ee5.']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccu5uQWs.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -flto=auto -flto=auto -flto=auto -flto=auto --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_02ee5 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. -Bsymbolic-functions -z relro CMakeFiles/cmTC_02ee5.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-g' '-O2' '-ffile-prefix-map=/home/yannik/Work/stacer/stacer=.' '-flto=auto' '-flto=auto' '-fstack-protector-strong' '-Wformat=1' '-Wdate-time' '-D' '_FORTIFY_SOURCE=2' '-flto=auto' '-ffat-lto-objects' '-flto=auto' '-v' '-rdynamic' '-o' 'cmTC_2c478' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_2c478.']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccXGQOnS.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -flto=auto -flto=auto -flto=auto -flto=auto --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_2c478 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. -Bsymbolic-functions -z relro CMakeFiles/cmTC_2c478.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/11/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccu5uQWs.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccXGQOnS.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -532,7 +532,7 @@ Parsed CXX implicit link information from above output:
     arg [-znow] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_02ee5] ==> ignore
+    arg [cmTC_2c478] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o]
@@ -546,7 +546,7 @@ Parsed CXX implicit link information from above output:
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/11/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../..]
     arg [-Bsymbolic-functions] ==> ignore
     arg [-zrelro] ==> ignore
-    arg [CMakeFiles/cmTC_02ee5.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTC_2c478.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgcc_s] ==> lib [gcc_s]

@@ -25,6 +25,10 @@ SystemInfo::SystemInfo()
             filterSpeed = lines.filter(QRegExp("^CPU MHz"));
             speedLine = filterSpeed.isEmpty() ? speedLine : filterSpeed.first();
         }
+        else
+        {
+            speedLine = filterSpeed.first();
+        }
 
         model = modelLine.split(":").last();
         speed = speedLine.split(":").last();

@@ -79,6 +79,7 @@ stacer/CMakeFiles/stacer.dir/Managers/app_manager.cpp.o: ../stacer/Managers/app_
   /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
+  /usr/include/x86_64-linux-gnu/bits/select2.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
   /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
@@ -86,7 +87,9 @@ stacer/CMakeFiles/stacer.dir/Managers/app_manager.cpp.o: ../stacer/Managers/app_
   /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
   /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
   /usr/include/alloca.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib.h \
   /usr/include/c++/11/bits/std_abs.h \
   /usr/include/c++/11/bits/algorithmfwd.h \
   /usr/include/c++/11/bits/stl_heap.h \
@@ -124,6 +127,8 @@ stacer/CMakeFiles/stacer.dir/Managers/app_manager.cpp.o: ../stacer/Managers/app_
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qarraydata.h \
   /usr/include/string.h \
   /usr/include/strings.h \
+  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
+  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
   /usr/include/c++/11/stdlib.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h \
   /usr/include/c++/11/string \
@@ -138,6 +143,7 @@ stacer/CMakeFiles/stacer.dir/Managers/app_manager.cpp.o: ../stacer/Managers/app_
   /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar2.h \
   /usr/include/c++/11/cstdint \
   /usr/include/c++/11/bits/allocator.h \
   /usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h \
@@ -184,6 +190,8 @@ stacer/CMakeFiles/stacer.dir/Managers/app_manager.cpp.o: ../stacer/Managers/app_
   /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
   /usr/include/c++/11/cerrno \
   /usr/include/errno.h \
   /usr/include/x86_64-linux-gnu/bits/errno.h \
@@ -442,6 +450,7 @@ stacer/CMakeFiles/stacer.dir/Managers/info_manager.cpp.o: ../stacer/Managers/inf
   /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
+  /usr/include/x86_64-linux-gnu/bits/select2.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
   /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
@@ -449,7 +458,9 @@ stacer/CMakeFiles/stacer.dir/Managers/info_manager.cpp.o: ../stacer/Managers/inf
   /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
   /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
   /usr/include/alloca.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib.h \
   /usr/include/c++/11/bits/std_abs.h \
   /usr/include/c++/11/bits/algorithmfwd.h \
   /usr/include/c++/11/bits/stl_heap.h \
@@ -484,6 +495,8 @@ stacer/CMakeFiles/stacer.dir/Managers/info_manager.cpp.o: ../stacer/Managers/inf
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qarraydata.h \
   /usr/include/string.h \
   /usr/include/strings.h \
+  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
+  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
   /usr/include/c++/11/stdlib.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h \
   /usr/include/c++/11/string \
@@ -498,6 +511,7 @@ stacer/CMakeFiles/stacer.dir/Managers/info_manager.cpp.o: ../stacer/Managers/inf
   /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar2.h \
   /usr/include/c++/11/cstdint \
   /usr/include/c++/11/bits/allocator.h \
   /usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h \
@@ -544,6 +558,8 @@ stacer/CMakeFiles/stacer.dir/Managers/info_manager.cpp.o: ../stacer/Managers/inf
   /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
   /usr/include/c++/11/cerrno \
   /usr/include/errno.h \
   /usr/include/x86_64-linux-gnu/bits/errno.h \
@@ -775,6 +791,7 @@ stacer/CMakeFiles/stacer.dir/Managers/setting_manager.cpp.o: ../stacer/Managers/
   /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
+  /usr/include/x86_64-linux-gnu/bits/select2.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
   /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
@@ -782,7 +799,9 @@ stacer/CMakeFiles/stacer.dir/Managers/setting_manager.cpp.o: ../stacer/Managers/
   /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
   /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
   /usr/include/alloca.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib.h \
   /usr/include/c++/11/bits/std_abs.h \
   /usr/include/c++/11/bits/algorithmfwd.h \
   /usr/include/c++/11/bits/stl_heap.h \
@@ -817,6 +836,8 @@ stacer/CMakeFiles/stacer.dir/Managers/setting_manager.cpp.o: ../stacer/Managers/
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qarraydata.h \
   /usr/include/string.h \
   /usr/include/strings.h \
+  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
+  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
   /usr/include/c++/11/stdlib.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h \
   /usr/include/c++/11/string \
@@ -831,6 +852,7 @@ stacer/CMakeFiles/stacer.dir/Managers/setting_manager.cpp.o: ../stacer/Managers/
   /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar2.h \
   /usr/include/c++/11/cstdint \
   /usr/include/c++/11/bits/allocator.h \
   /usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h \
@@ -877,6 +899,8 @@ stacer/CMakeFiles/stacer.dir/Managers/setting_manager.cpp.o: ../stacer/Managers/
   /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
   /usr/include/c++/11/cerrno \
   /usr/include/errno.h \
   /usr/include/x86_64-linux-gnu/bits/errno.h \
@@ -1048,6 +1072,7 @@ stacer/CMakeFiles/stacer.dir/Managers/tool_manager.cpp.o: ../stacer/Managers/too
   /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
+  /usr/include/x86_64-linux-gnu/bits/select2.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
   /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
@@ -1055,7 +1080,9 @@ stacer/CMakeFiles/stacer.dir/Managers/tool_manager.cpp.o: ../stacer/Managers/too
   /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
   /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
   /usr/include/alloca.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib.h \
   /usr/include/c++/11/bits/std_abs.h \
   /usr/include/c++/11/bits/algorithmfwd.h \
   /usr/include/c++/11/bits/stl_heap.h \
@@ -1087,6 +1114,8 @@ stacer/CMakeFiles/stacer.dir/Managers/tool_manager.cpp.o: ../stacer/Managers/too
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qarraydata.h \
   /usr/include/string.h \
   /usr/include/strings.h \
+  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
+  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qhashfunctions.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qstring.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qchar.h \
@@ -1106,6 +1135,7 @@ stacer/CMakeFiles/stacer.dir/Managers/tool_manager.cpp.o: ../stacer/Managers/too
   /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar2.h \
   /usr/include/c++/11/cstdint \
   /usr/include/c++/11/bits/allocator.h \
   /usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h \
@@ -1152,6 +1182,8 @@ stacer/CMakeFiles/stacer.dir/Managers/tool_manager.cpp.o: ../stacer/Managers/too
   /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
   /usr/include/c++/11/cerrno \
   /usr/include/errno.h \
   /usr/include/x86_64-linux-gnu/bits/errno.h \
@@ -1355,6 +1387,7 @@ stacer/CMakeFiles/stacer.dir/Pages/AptSourceManager/apt_source_edit.cpp.o: ../st
   /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
+  /usr/include/x86_64-linux-gnu/bits/select2.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
   /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
@@ -1362,7 +1395,9 @@ stacer/CMakeFiles/stacer.dir/Pages/AptSourceManager/apt_source_edit.cpp.o: ../st
   /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
   /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
   /usr/include/alloca.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib.h \
   /usr/include/c++/11/bits/std_abs.h \
   /usr/include/c++/11/bits/algorithmfwd.h \
   /usr/include/c++/11/bits/stl_heap.h \
@@ -1404,6 +1439,8 @@ stacer/CMakeFiles/stacer.dir/Pages/AptSourceManager/apt_source_edit.cpp.o: ../st
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qarraydata.h \
   /usr/include/string.h \
   /usr/include/strings.h \
+  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
+  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
   /usr/include/c++/11/stdlib.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h \
   /usr/include/c++/11/string \
@@ -1418,6 +1455,7 @@ stacer/CMakeFiles/stacer.dir/Pages/AptSourceManager/apt_source_edit.cpp.o: ../st
   /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar2.h \
   /usr/include/c++/11/cstdint \
   /usr/include/c++/11/bits/allocator.h \
   /usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h \
@@ -1464,6 +1502,8 @@ stacer/CMakeFiles/stacer.dir/Pages/AptSourceManager/apt_source_edit.cpp.o: ../st
   /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
   /usr/include/c++/11/cerrno \
   /usr/include/errno.h \
   /usr/include/x86_64-linux-gnu/bits/errno.h \
@@ -1740,6 +1780,7 @@ stacer/CMakeFiles/stacer.dir/Pages/AptSourceManager/apt_source_manager_page.cpp.
   /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
+  /usr/include/x86_64-linux-gnu/bits/select2.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
   /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
@@ -1747,7 +1788,9 @@ stacer/CMakeFiles/stacer.dir/Pages/AptSourceManager/apt_source_manager_page.cpp.
   /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
   /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
   /usr/include/alloca.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib.h \
   /usr/include/c++/11/bits/std_abs.h \
   /usr/include/c++/11/bits/algorithmfwd.h \
   /usr/include/c++/11/bits/stl_heap.h \
@@ -1788,6 +1831,8 @@ stacer/CMakeFiles/stacer.dir/Pages/AptSourceManager/apt_source_manager_page.cpp.
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qarraydata.h \
   /usr/include/string.h \
   /usr/include/strings.h \
+  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
+  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
   /usr/include/c++/11/stdlib.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h \
   /usr/include/c++/11/string \
@@ -1802,6 +1847,7 @@ stacer/CMakeFiles/stacer.dir/Pages/AptSourceManager/apt_source_manager_page.cpp.
   /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar2.h \
   /usr/include/c++/11/cstdint \
   /usr/include/c++/11/bits/allocator.h \
   /usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h \
@@ -1848,6 +1894,8 @@ stacer/CMakeFiles/stacer.dir/Pages/AptSourceManager/apt_source_manager_page.cpp.
   /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
   /usr/include/c++/11/cerrno \
   /usr/include/errno.h \
   /usr/include/x86_64-linux-gnu/bits/errno.h \
@@ -2178,6 +2226,7 @@ stacer/CMakeFiles/stacer.dir/Pages/AptSourceManager/apt_source_repository_item.c
   /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
+  /usr/include/x86_64-linux-gnu/bits/select2.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
   /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
@@ -2185,7 +2234,9 @@ stacer/CMakeFiles/stacer.dir/Pages/AptSourceManager/apt_source_repository_item.c
   /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
   /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
   /usr/include/alloca.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib.h \
   /usr/include/c++/11/bits/std_abs.h \
   /usr/include/c++/11/bits/algorithmfwd.h \
   /usr/include/c++/11/bits/stl_heap.h \
@@ -2226,6 +2277,8 @@ stacer/CMakeFiles/stacer.dir/Pages/AptSourceManager/apt_source_repository_item.c
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qarraydata.h \
   /usr/include/string.h \
   /usr/include/strings.h \
+  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
+  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
   /usr/include/c++/11/stdlib.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h \
   /usr/include/c++/11/string \
@@ -2240,6 +2293,7 @@ stacer/CMakeFiles/stacer.dir/Pages/AptSourceManager/apt_source_repository_item.c
   /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar2.h \
   /usr/include/c++/11/cstdint \
   /usr/include/c++/11/bits/allocator.h \
   /usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h \
@@ -2286,6 +2340,8 @@ stacer/CMakeFiles/stacer.dir/Pages/AptSourceManager/apt_source_repository_item.c
   /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
   /usr/include/c++/11/cerrno \
   /usr/include/errno.h \
   /usr/include/x86_64-linux-gnu/bits/errno.h \
@@ -2557,6 +2613,7 @@ stacer/CMakeFiles/stacer.dir/Pages/Dashboard/circlebar.cpp.o: ../stacer/Pages/Da
   /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
+  /usr/include/x86_64-linux-gnu/bits/select2.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
   /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
@@ -2564,7 +2621,9 @@ stacer/CMakeFiles/stacer.dir/Pages/Dashboard/circlebar.cpp.o: ../stacer/Pages/Da
   /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
   /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
   /usr/include/alloca.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib.h \
   /usr/include/c++/11/bits/std_abs.h \
   /usr/include/c++/11/bits/algorithmfwd.h \
   /usr/include/c++/11/bits/stl_heap.h \
@@ -2605,6 +2664,8 @@ stacer/CMakeFiles/stacer.dir/Pages/Dashboard/circlebar.cpp.o: ../stacer/Pages/Da
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qarraydata.h \
   /usr/include/string.h \
   /usr/include/strings.h \
+  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
+  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
   /usr/include/c++/11/stdlib.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h \
   /usr/include/c++/11/string \
@@ -2619,6 +2680,7 @@ stacer/CMakeFiles/stacer.dir/Pages/Dashboard/circlebar.cpp.o: ../stacer/Pages/Da
   /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar2.h \
   /usr/include/c++/11/cstdint \
   /usr/include/c++/11/bits/allocator.h \
   /usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h \
@@ -2665,6 +2727,8 @@ stacer/CMakeFiles/stacer.dir/Pages/Dashboard/circlebar.cpp.o: ../stacer/Pages/Da
   /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
   /usr/include/c++/11/cerrno \
   /usr/include/errno.h \
   /usr/include/x86_64-linux-gnu/bits/errno.h \
@@ -3588,6 +3652,7 @@ stacer/CMakeFiles/stacer.dir/Pages/Dashboard/dashboard_page.cpp.o: ../stacer/Pag
   /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
+  /usr/include/x86_64-linux-gnu/bits/select2.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
   /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
@@ -3595,7 +3660,9 @@ stacer/CMakeFiles/stacer.dir/Pages/Dashboard/dashboard_page.cpp.o: ../stacer/Pag
   /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
   /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
   /usr/include/alloca.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib.h \
   /usr/include/c++/11/bits/std_abs.h \
   /usr/include/c++/11/bits/algorithmfwd.h \
   /usr/include/c++/11/bits/stl_heap.h \
@@ -3636,6 +3703,8 @@ stacer/CMakeFiles/stacer.dir/Pages/Dashboard/dashboard_page.cpp.o: ../stacer/Pag
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qarraydata.h \
   /usr/include/string.h \
   /usr/include/strings.h \
+  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
+  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
   /usr/include/c++/11/stdlib.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h \
   /usr/include/c++/11/string \
@@ -3650,6 +3719,7 @@ stacer/CMakeFiles/stacer.dir/Pages/Dashboard/dashboard_page.cpp.o: ../stacer/Pag
   /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar2.h \
   /usr/include/c++/11/cstdint \
   /usr/include/c++/11/bits/allocator.h \
   /usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h \
@@ -3696,6 +3766,8 @@ stacer/CMakeFiles/stacer.dir/Pages/Dashboard/dashboard_page.cpp.o: ../stacer/Pag
   /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
   /usr/include/c++/11/cerrno \
   /usr/include/errno.h \
   /usr/include/x86_64-linux-gnu/bits/errno.h \
@@ -4705,6 +4777,7 @@ stacer/CMakeFiles/stacer.dir/Pages/Dashboard/linebar.cpp.o: ../stacer/Pages/Dash
   /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
+  /usr/include/x86_64-linux-gnu/bits/select2.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
   /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
@@ -4712,7 +4785,9 @@ stacer/CMakeFiles/stacer.dir/Pages/Dashboard/linebar.cpp.o: ../stacer/Pages/Dash
   /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
   /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
   /usr/include/alloca.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib.h \
   /usr/include/c++/11/bits/std_abs.h \
   /usr/include/c++/11/bits/algorithmfwd.h \
   /usr/include/c++/11/bits/stl_heap.h \
@@ -4753,6 +4828,8 @@ stacer/CMakeFiles/stacer.dir/Pages/Dashboard/linebar.cpp.o: ../stacer/Pages/Dash
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qarraydata.h \
   /usr/include/string.h \
   /usr/include/strings.h \
+  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
+  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
   /usr/include/c++/11/stdlib.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h \
   /usr/include/c++/11/string \
@@ -4767,6 +4844,7 @@ stacer/CMakeFiles/stacer.dir/Pages/Dashboard/linebar.cpp.o: ../stacer/Pages/Dash
   /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar2.h \
   /usr/include/c++/11/cstdint \
   /usr/include/c++/11/bits/allocator.h \
   /usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h \
@@ -4813,6 +4891,8 @@ stacer/CMakeFiles/stacer.dir/Pages/Dashboard/linebar.cpp.o: ../stacer/Pages/Dash
   /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
   /usr/include/c++/11/cerrno \
   /usr/include/errno.h \
   /usr/include/x86_64-linux-gnu/bits/errno.h \
@@ -5045,6 +5125,7 @@ stacer/CMakeFiles/stacer.dir/Pages/GnomeSettings/appearance_settings.cpp.o: ../s
   /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
+  /usr/include/x86_64-linux-gnu/bits/select2.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
   /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
@@ -5052,7 +5133,9 @@ stacer/CMakeFiles/stacer.dir/Pages/GnomeSettings/appearance_settings.cpp.o: ../s
   /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
   /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
   /usr/include/alloca.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib.h \
   /usr/include/c++/11/bits/std_abs.h \
   /usr/include/c++/11/bits/algorithmfwd.h \
   /usr/include/c++/11/bits/stl_heap.h \
@@ -5093,6 +5176,8 @@ stacer/CMakeFiles/stacer.dir/Pages/GnomeSettings/appearance_settings.cpp.o: ../s
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qarraydata.h \
   /usr/include/string.h \
   /usr/include/strings.h \
+  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
+  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
   /usr/include/c++/11/stdlib.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h \
   /usr/include/c++/11/string \
@@ -5107,6 +5192,7 @@ stacer/CMakeFiles/stacer.dir/Pages/GnomeSettings/appearance_settings.cpp.o: ../s
   /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar2.h \
   /usr/include/c++/11/cstdint \
   /usr/include/c++/11/bits/allocator.h \
   /usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h \
@@ -5153,6 +5239,8 @@ stacer/CMakeFiles/stacer.dir/Pages/GnomeSettings/appearance_settings.cpp.o: ../s
   /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
   /usr/include/c++/11/cerrno \
   /usr/include/errno.h \
   /usr/include/x86_64-linux-gnu/bits/errno.h \
@@ -5414,6 +5502,7 @@ stacer/CMakeFiles/stacer.dir/Pages/GnomeSettings/gnome_settings_page.cpp.o: ../s
   /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
+  /usr/include/x86_64-linux-gnu/bits/select2.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
   /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
@@ -5421,7 +5510,9 @@ stacer/CMakeFiles/stacer.dir/Pages/GnomeSettings/gnome_settings_page.cpp.o: ../s
   /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
   /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
   /usr/include/alloca.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib.h \
   /usr/include/c++/11/bits/std_abs.h \
   /usr/include/c++/11/bits/algorithmfwd.h \
   /usr/include/c++/11/bits/stl_heap.h \
@@ -5462,6 +5553,8 @@ stacer/CMakeFiles/stacer.dir/Pages/GnomeSettings/gnome_settings_page.cpp.o: ../s
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qarraydata.h \
   /usr/include/string.h \
   /usr/include/strings.h \
+  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
+  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
   /usr/include/c++/11/stdlib.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h \
   /usr/include/c++/11/string \
@@ -5476,6 +5569,7 @@ stacer/CMakeFiles/stacer.dir/Pages/GnomeSettings/gnome_settings_page.cpp.o: ../s
   /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar2.h \
   /usr/include/c++/11/cstdint \
   /usr/include/c++/11/bits/allocator.h \
   /usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h \
@@ -5522,6 +5616,8 @@ stacer/CMakeFiles/stacer.dir/Pages/GnomeSettings/gnome_settings_page.cpp.o: ../s
   /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
   /usr/include/c++/11/cerrno \
   /usr/include/errno.h \
   /usr/include/x86_64-linux-gnu/bits/errno.h \
@@ -6189,6 +6285,7 @@ stacer/CMakeFiles/stacer.dir/Pages/GnomeSettings/unity_settings.cpp.o: ../stacer
   /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
+  /usr/include/x86_64-linux-gnu/bits/select2.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
   /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
@@ -6196,7 +6293,9 @@ stacer/CMakeFiles/stacer.dir/Pages/GnomeSettings/unity_settings.cpp.o: ../stacer
   /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
   /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
   /usr/include/alloca.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib.h \
   /usr/include/c++/11/bits/std_abs.h \
   /usr/include/c++/11/bits/algorithmfwd.h \
   /usr/include/c++/11/bits/stl_heap.h \
@@ -6237,6 +6336,8 @@ stacer/CMakeFiles/stacer.dir/Pages/GnomeSettings/unity_settings.cpp.o: ../stacer
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qarraydata.h \
   /usr/include/string.h \
   /usr/include/strings.h \
+  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
+  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
   /usr/include/c++/11/stdlib.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h \
   /usr/include/c++/11/string \
@@ -6251,6 +6352,7 @@ stacer/CMakeFiles/stacer.dir/Pages/GnomeSettings/unity_settings.cpp.o: ../stacer
   /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar2.h \
   /usr/include/c++/11/cstdint \
   /usr/include/c++/11/bits/allocator.h \
   /usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h \
@@ -6297,6 +6399,8 @@ stacer/CMakeFiles/stacer.dir/Pages/GnomeSettings/unity_settings.cpp.o: ../stacer
   /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
   /usr/include/c++/11/cerrno \
   /usr/include/errno.h \
   /usr/include/x86_64-linux-gnu/bits/errno.h \
@@ -6559,6 +6663,7 @@ stacer/CMakeFiles/stacer.dir/Pages/GnomeSettings/window_manager_settings.cpp.o: 
   /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
+  /usr/include/x86_64-linux-gnu/bits/select2.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
   /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
@@ -6566,7 +6671,9 @@ stacer/CMakeFiles/stacer.dir/Pages/GnomeSettings/window_manager_settings.cpp.o: 
   /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
   /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
   /usr/include/alloca.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib.h \
   /usr/include/c++/11/bits/std_abs.h \
   /usr/include/c++/11/bits/algorithmfwd.h \
   /usr/include/c++/11/bits/stl_heap.h \
@@ -6607,6 +6714,8 @@ stacer/CMakeFiles/stacer.dir/Pages/GnomeSettings/window_manager_settings.cpp.o: 
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qarraydata.h \
   /usr/include/string.h \
   /usr/include/strings.h \
+  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
+  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
   /usr/include/c++/11/stdlib.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h \
   /usr/include/c++/11/string \
@@ -6621,6 +6730,7 @@ stacer/CMakeFiles/stacer.dir/Pages/GnomeSettings/window_manager_settings.cpp.o: 
   /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar2.h \
   /usr/include/c++/11/cstdint \
   /usr/include/c++/11/bits/allocator.h \
   /usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h \
@@ -6667,6 +6777,8 @@ stacer/CMakeFiles/stacer.dir/Pages/GnomeSettings/window_manager_settings.cpp.o: 
   /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
   /usr/include/c++/11/cerrno \
   /usr/include/errno.h \
   /usr/include/x86_64-linux-gnu/bits/errno.h \
@@ -6933,6 +7045,7 @@ stacer/CMakeFiles/stacer.dir/Pages/Helpers/helpers_page.cpp.o: ../stacer/Pages/H
   /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
+  /usr/include/x86_64-linux-gnu/bits/select2.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
   /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
@@ -6940,7 +7053,9 @@ stacer/CMakeFiles/stacer.dir/Pages/Helpers/helpers_page.cpp.o: ../stacer/Pages/H
   /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
   /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
   /usr/include/alloca.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib.h \
   /usr/include/c++/11/bits/std_abs.h \
   /usr/include/c++/11/bits/algorithmfwd.h \
   /usr/include/c++/11/bits/stl_heap.h \
@@ -6981,6 +7096,8 @@ stacer/CMakeFiles/stacer.dir/Pages/Helpers/helpers_page.cpp.o: ../stacer/Pages/H
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qarraydata.h \
   /usr/include/string.h \
   /usr/include/strings.h \
+  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
+  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
   /usr/include/c++/11/stdlib.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h \
   /usr/include/c++/11/string \
@@ -6995,6 +7112,7 @@ stacer/CMakeFiles/stacer.dir/Pages/Helpers/helpers_page.cpp.o: ../stacer/Pages/H
   /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar2.h \
   /usr/include/c++/11/cstdint \
   /usr/include/c++/11/bits/allocator.h \
   /usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h \
@@ -7041,6 +7159,8 @@ stacer/CMakeFiles/stacer.dir/Pages/Helpers/helpers_page.cpp.o: ../stacer/Pages/H
   /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
   /usr/include/c++/11/cerrno \
   /usr/include/errno.h \
   /usr/include/x86_64-linux-gnu/bits/errno.h \
@@ -7315,6 +7435,7 @@ stacer/CMakeFiles/stacer.dir/Pages/Helpers/host_manage.cpp.o: ../stacer/Pages/He
   /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
+  /usr/include/x86_64-linux-gnu/bits/select2.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
   /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
@@ -7322,7 +7443,9 @@ stacer/CMakeFiles/stacer.dir/Pages/Helpers/host_manage.cpp.o: ../stacer/Pages/He
   /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
   /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
   /usr/include/alloca.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib.h \
   /usr/include/c++/11/bits/std_abs.h \
   /usr/include/c++/11/bits/algorithmfwd.h \
   /usr/include/c++/11/bits/stl_heap.h \
@@ -7363,6 +7486,8 @@ stacer/CMakeFiles/stacer.dir/Pages/Helpers/host_manage.cpp.o: ../stacer/Pages/He
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qarraydata.h \
   /usr/include/string.h \
   /usr/include/strings.h \
+  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
+  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
   /usr/include/c++/11/stdlib.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h \
   /usr/include/c++/11/string \
@@ -7377,6 +7502,7 @@ stacer/CMakeFiles/stacer.dir/Pages/Helpers/host_manage.cpp.o: ../stacer/Pages/He
   /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar2.h \
   /usr/include/c++/11/cstdint \
   /usr/include/c++/11/bits/allocator.h \
   /usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h \
@@ -7423,6 +7549,8 @@ stacer/CMakeFiles/stacer.dir/Pages/Helpers/host_manage.cpp.o: ../stacer/Pages/He
   /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
   /usr/include/c++/11/cerrno \
   /usr/include/errno.h \
   /usr/include/x86_64-linux-gnu/bits/errno.h \
@@ -7721,6 +7849,7 @@ stacer/CMakeFiles/stacer.dir/Pages/Processes/processes_page.cpp.o: ../stacer/Pag
   /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
+  /usr/include/x86_64-linux-gnu/bits/select2.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
   /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
@@ -7728,7 +7857,9 @@ stacer/CMakeFiles/stacer.dir/Pages/Processes/processes_page.cpp.o: ../stacer/Pag
   /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
   /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
   /usr/include/alloca.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib.h \
   /usr/include/c++/11/bits/std_abs.h \
   /usr/include/c++/11/bits/algorithmfwd.h \
   /usr/include/c++/11/bits/stl_heap.h \
@@ -7769,6 +7900,8 @@ stacer/CMakeFiles/stacer.dir/Pages/Processes/processes_page.cpp.o: ../stacer/Pag
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qarraydata.h \
   /usr/include/string.h \
   /usr/include/strings.h \
+  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
+  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
   /usr/include/c++/11/stdlib.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h \
   /usr/include/c++/11/string \
@@ -7783,6 +7916,7 @@ stacer/CMakeFiles/stacer.dir/Pages/Processes/processes_page.cpp.o: ../stacer/Pag
   /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar2.h \
   /usr/include/c++/11/cstdint \
   /usr/include/c++/11/bits/allocator.h \
   /usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h \
@@ -7829,6 +7963,8 @@ stacer/CMakeFiles/stacer.dir/Pages/Processes/processes_page.cpp.o: ../stacer/Pag
   /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
   /usr/include/c++/11/cerrno \
   /usr/include/errno.h \
   /usr/include/x86_64-linux-gnu/bits/errno.h \
@@ -8163,6 +8299,7 @@ stacer/CMakeFiles/stacer.dir/Pages/Resources/history_chart.cpp.o: ../stacer/Page
   /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
+  /usr/include/x86_64-linux-gnu/bits/select2.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
   /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
@@ -8170,7 +8307,9 @@ stacer/CMakeFiles/stacer.dir/Pages/Resources/history_chart.cpp.o: ../stacer/Page
   /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
   /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
   /usr/include/alloca.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib.h \
   /usr/include/c++/11/bits/std_abs.h \
   /usr/include/c++/11/bits/algorithmfwd.h \
   /usr/include/c++/11/bits/stl_heap.h \
@@ -8211,6 +8350,8 @@ stacer/CMakeFiles/stacer.dir/Pages/Resources/history_chart.cpp.o: ../stacer/Page
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qarraydata.h \
   /usr/include/string.h \
   /usr/include/strings.h \
+  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
+  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
   /usr/include/c++/11/stdlib.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h \
   /usr/include/c++/11/string \
@@ -8225,6 +8366,7 @@ stacer/CMakeFiles/stacer.dir/Pages/Resources/history_chart.cpp.o: ../stacer/Page
   /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar2.h \
   /usr/include/c++/11/cstdint \
   /usr/include/c++/11/bits/allocator.h \
   /usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h \
@@ -8271,6 +8413,8 @@ stacer/CMakeFiles/stacer.dir/Pages/Resources/history_chart.cpp.o: ../stacer/Page
   /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
   /usr/include/c++/11/cerrno \
   /usr/include/errno.h \
   /usr/include/x86_64-linux-gnu/bits/errno.h \
@@ -9199,6 +9343,7 @@ stacer/CMakeFiles/stacer.dir/Pages/Resources/resources_page.cpp.o: ../stacer/Pag
   /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
+  /usr/include/x86_64-linux-gnu/bits/select2.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
   /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
@@ -9206,7 +9351,9 @@ stacer/CMakeFiles/stacer.dir/Pages/Resources/resources_page.cpp.o: ../stacer/Pag
   /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
   /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
   /usr/include/alloca.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib.h \
   /usr/include/c++/11/bits/std_abs.h \
   /usr/include/c++/11/bits/algorithmfwd.h \
   /usr/include/c++/11/bits/stl_heap.h \
@@ -9247,6 +9394,8 @@ stacer/CMakeFiles/stacer.dir/Pages/Resources/resources_page.cpp.o: ../stacer/Pag
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qarraydata.h \
   /usr/include/string.h \
   /usr/include/strings.h \
+  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
+  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
   /usr/include/c++/11/stdlib.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h \
   /usr/include/c++/11/string \
@@ -9261,6 +9410,7 @@ stacer/CMakeFiles/stacer.dir/Pages/Resources/resources_page.cpp.o: ../stacer/Pag
   /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar2.h \
   /usr/include/c++/11/cstdint \
   /usr/include/c++/11/bits/allocator.h \
   /usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h \
@@ -9307,6 +9457,8 @@ stacer/CMakeFiles/stacer.dir/Pages/Resources/resources_page.cpp.o: ../stacer/Pag
   /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
   /usr/include/c++/11/cerrno \
   /usr/include/errno.h \
   /usr/include/x86_64-linux-gnu/bits/errno.h \
@@ -10257,6 +10409,7 @@ stacer/CMakeFiles/stacer.dir/Pages/Search/search_page.cpp.o: ../stacer/Pages/Sea
   /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
+  /usr/include/x86_64-linux-gnu/bits/select2.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
   /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
@@ -10264,7 +10417,9 @@ stacer/CMakeFiles/stacer.dir/Pages/Search/search_page.cpp.o: ../stacer/Pages/Sea
   /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
   /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
   /usr/include/alloca.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib.h \
   /usr/include/c++/11/bits/std_abs.h \
   /usr/include/c++/11/bits/algorithmfwd.h \
   /usr/include/c++/11/bits/stl_heap.h \
@@ -10305,6 +10460,8 @@ stacer/CMakeFiles/stacer.dir/Pages/Search/search_page.cpp.o: ../stacer/Pages/Sea
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qarraydata.h \
   /usr/include/string.h \
   /usr/include/strings.h \
+  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
+  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
   /usr/include/c++/11/stdlib.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h \
   /usr/include/c++/11/string \
@@ -10319,6 +10476,7 @@ stacer/CMakeFiles/stacer.dir/Pages/Search/search_page.cpp.o: ../stacer/Pages/Sea
   /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar2.h \
   /usr/include/c++/11/cstdint \
   /usr/include/c++/11/bits/allocator.h \
   /usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h \
@@ -10365,6 +10523,8 @@ stacer/CMakeFiles/stacer.dir/Pages/Search/search_page.cpp.o: ../stacer/Pages/Sea
   /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
   /usr/include/c++/11/cerrno \
   /usr/include/errno.h \
   /usr/include/x86_64-linux-gnu/bits/errno.h \
@@ -10977,6 +11137,7 @@ stacer/CMakeFiles/stacer.dir/Pages/Services/service_item.cpp.o: ../stacer/Pages/
   /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
+  /usr/include/x86_64-linux-gnu/bits/select2.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
   /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
@@ -10984,7 +11145,9 @@ stacer/CMakeFiles/stacer.dir/Pages/Services/service_item.cpp.o: ../stacer/Pages/
   /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
   /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
   /usr/include/alloca.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib.h \
   /usr/include/c++/11/bits/std_abs.h \
   /usr/include/c++/11/bits/algorithmfwd.h \
   /usr/include/c++/11/bits/stl_heap.h \
@@ -11025,6 +11188,8 @@ stacer/CMakeFiles/stacer.dir/Pages/Services/service_item.cpp.o: ../stacer/Pages/
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qarraydata.h \
   /usr/include/string.h \
   /usr/include/strings.h \
+  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
+  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
   /usr/include/c++/11/stdlib.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h \
   /usr/include/c++/11/string \
@@ -11039,6 +11204,7 @@ stacer/CMakeFiles/stacer.dir/Pages/Services/service_item.cpp.o: ../stacer/Pages/
   /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar2.h \
   /usr/include/c++/11/cstdint \
   /usr/include/c++/11/bits/allocator.h \
   /usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h \
@@ -11085,6 +11251,8 @@ stacer/CMakeFiles/stacer.dir/Pages/Services/service_item.cpp.o: ../stacer/Pages/
   /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
   /usr/include/c++/11/cerrno \
   /usr/include/errno.h \
   /usr/include/x86_64-linux-gnu/bits/errno.h \
@@ -11355,6 +11523,7 @@ stacer/CMakeFiles/stacer.dir/Pages/Services/services_page.cpp.o: ../stacer/Pages
   /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
+  /usr/include/x86_64-linux-gnu/bits/select2.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
   /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
@@ -11362,7 +11531,9 @@ stacer/CMakeFiles/stacer.dir/Pages/Services/services_page.cpp.o: ../stacer/Pages
   /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
   /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
   /usr/include/alloca.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib.h \
   /usr/include/c++/11/bits/std_abs.h \
   /usr/include/c++/11/bits/algorithmfwd.h \
   /usr/include/c++/11/bits/stl_heap.h \
@@ -11403,6 +11574,8 @@ stacer/CMakeFiles/stacer.dir/Pages/Services/services_page.cpp.o: ../stacer/Pages
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qarraydata.h \
   /usr/include/string.h \
   /usr/include/strings.h \
+  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
+  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
   /usr/include/c++/11/stdlib.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h \
   /usr/include/c++/11/string \
@@ -11417,6 +11590,7 @@ stacer/CMakeFiles/stacer.dir/Pages/Services/services_page.cpp.o: ../stacer/Pages
   /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar2.h \
   /usr/include/c++/11/cstdint \
   /usr/include/c++/11/bits/allocator.h \
   /usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h \
@@ -11463,6 +11637,8 @@ stacer/CMakeFiles/stacer.dir/Pages/Services/services_page.cpp.o: ../stacer/Pages
   /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
   /usr/include/c++/11/cerrno \
   /usr/include/errno.h \
   /usr/include/x86_64-linux-gnu/bits/errno.h \
@@ -12022,6 +12198,7 @@ stacer/CMakeFiles/stacer.dir/Pages/Settings/settings_page.cpp.o: ../stacer/Pages
   /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
+  /usr/include/x86_64-linux-gnu/bits/select2.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
   /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
@@ -12029,7 +12206,9 @@ stacer/CMakeFiles/stacer.dir/Pages/Settings/settings_page.cpp.o: ../stacer/Pages
   /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
   /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
   /usr/include/alloca.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib.h \
   /usr/include/c++/11/bits/std_abs.h \
   /usr/include/c++/11/bits/algorithmfwd.h \
   /usr/include/c++/11/bits/stl_heap.h \
@@ -12070,6 +12249,8 @@ stacer/CMakeFiles/stacer.dir/Pages/Settings/settings_page.cpp.o: ../stacer/Pages
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qarraydata.h \
   /usr/include/string.h \
   /usr/include/strings.h \
+  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
+  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
   /usr/include/c++/11/stdlib.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h \
   /usr/include/c++/11/string \
@@ -12084,6 +12265,7 @@ stacer/CMakeFiles/stacer.dir/Pages/Settings/settings_page.cpp.o: ../stacer/Pages
   /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar2.h \
   /usr/include/c++/11/cstdint \
   /usr/include/c++/11/bits/allocator.h \
   /usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h \
@@ -12130,6 +12312,8 @@ stacer/CMakeFiles/stacer.dir/Pages/Settings/settings_page.cpp.o: ../stacer/Pages
   /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
   /usr/include/c++/11/cerrno \
   /usr/include/errno.h \
   /usr/include/x86_64-linux-gnu/bits/errno.h \
@@ -12467,6 +12651,7 @@ stacer/CMakeFiles/stacer.dir/Pages/StartupApps/startup_app.cpp.o: ../stacer/Page
   /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
+  /usr/include/x86_64-linux-gnu/bits/select2.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
   /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
@@ -12474,7 +12659,9 @@ stacer/CMakeFiles/stacer.dir/Pages/StartupApps/startup_app.cpp.o: ../stacer/Page
   /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
   /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
   /usr/include/alloca.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib.h \
   /usr/include/c++/11/bits/std_abs.h \
   /usr/include/c++/11/bits/algorithmfwd.h \
   /usr/include/c++/11/bits/stl_heap.h \
@@ -12515,6 +12702,8 @@ stacer/CMakeFiles/stacer.dir/Pages/StartupApps/startup_app.cpp.o: ../stacer/Page
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qarraydata.h \
   /usr/include/string.h \
   /usr/include/strings.h \
+  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
+  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
   /usr/include/c++/11/stdlib.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h \
   /usr/include/c++/11/string \
@@ -12529,6 +12718,7 @@ stacer/CMakeFiles/stacer.dir/Pages/StartupApps/startup_app.cpp.o: ../stacer/Page
   /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar2.h \
   /usr/include/c++/11/cstdint \
   /usr/include/c++/11/bits/allocator.h \
   /usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h \
@@ -12575,6 +12765,8 @@ stacer/CMakeFiles/stacer.dir/Pages/StartupApps/startup_app.cpp.o: ../stacer/Page
   /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
   /usr/include/c++/11/cerrno \
   /usr/include/errno.h \
   /usr/include/x86_64-linux-gnu/bits/errno.h \
@@ -12871,6 +13063,7 @@ stacer/CMakeFiles/stacer.dir/Pages/StartupApps/startup_app_edit.cpp.o: ../stacer
   /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
+  /usr/include/x86_64-linux-gnu/bits/select2.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
   /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
@@ -12878,7 +13071,9 @@ stacer/CMakeFiles/stacer.dir/Pages/StartupApps/startup_app_edit.cpp.o: ../stacer
   /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
   /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
   /usr/include/alloca.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib.h \
   /usr/include/c++/11/bits/std_abs.h \
   /usr/include/c++/11/bits/algorithmfwd.h \
   /usr/include/c++/11/bits/stl_heap.h \
@@ -12920,6 +13115,8 @@ stacer/CMakeFiles/stacer.dir/Pages/StartupApps/startup_app_edit.cpp.o: ../stacer
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qarraydata.h \
   /usr/include/string.h \
   /usr/include/strings.h \
+  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
+  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
   /usr/include/c++/11/stdlib.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h \
   /usr/include/c++/11/string \
@@ -12934,6 +13131,7 @@ stacer/CMakeFiles/stacer.dir/Pages/StartupApps/startup_app_edit.cpp.o: ../stacer
   /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar2.h \
   /usr/include/c++/11/cstdint \
   /usr/include/c++/11/bits/allocator.h \
   /usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h \
@@ -12980,6 +13178,8 @@ stacer/CMakeFiles/stacer.dir/Pages/StartupApps/startup_app_edit.cpp.o: ../stacer
   /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
   /usr/include/c++/11/cerrno \
   /usr/include/errno.h \
   /usr/include/x86_64-linux-gnu/bits/errno.h \
@@ -13293,6 +13493,7 @@ stacer/CMakeFiles/stacer.dir/Pages/StartupApps/startup_apps_page.cpp.o: ../stace
   /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
+  /usr/include/x86_64-linux-gnu/bits/select2.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
   /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
@@ -13300,7 +13501,9 @@ stacer/CMakeFiles/stacer.dir/Pages/StartupApps/startup_apps_page.cpp.o: ../stace
   /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
   /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
   /usr/include/alloca.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib.h \
   /usr/include/c++/11/bits/std_abs.h \
   /usr/include/c++/11/bits/algorithmfwd.h \
   /usr/include/c++/11/bits/stl_heap.h \
@@ -13341,6 +13544,8 @@ stacer/CMakeFiles/stacer.dir/Pages/StartupApps/startup_apps_page.cpp.o: ../stace
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qarraydata.h \
   /usr/include/string.h \
   /usr/include/strings.h \
+  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
+  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
   /usr/include/c++/11/stdlib.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h \
   /usr/include/c++/11/string \
@@ -13355,6 +13560,7 @@ stacer/CMakeFiles/stacer.dir/Pages/StartupApps/startup_apps_page.cpp.o: ../stace
   /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar2.h \
   /usr/include/c++/11/cstdint \
   /usr/include/c++/11/bits/allocator.h \
   /usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h \
@@ -13401,6 +13607,8 @@ stacer/CMakeFiles/stacer.dir/Pages/StartupApps/startup_apps_page.cpp.o: ../stace
   /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
   /usr/include/c++/11/cerrno \
   /usr/include/errno.h \
   /usr/include/x86_64-linux-gnu/bits/errno.h \
@@ -13718,6 +13926,7 @@ stacer/CMakeFiles/stacer.dir/Pages/SystemCleaner/byte_tree_widget.cpp.o: ../stac
   /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
+  /usr/include/x86_64-linux-gnu/bits/select2.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
   /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
@@ -13725,7 +13934,9 @@ stacer/CMakeFiles/stacer.dir/Pages/SystemCleaner/byte_tree_widget.cpp.o: ../stac
   /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
   /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
   /usr/include/alloca.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib.h \
   /usr/include/c++/11/bits/std_abs.h \
   /usr/include/c++/11/bits/algorithmfwd.h \
   /usr/include/c++/11/bits/stl_heap.h \
@@ -13771,6 +13982,8 @@ stacer/CMakeFiles/stacer.dir/Pages/SystemCleaner/byte_tree_widget.cpp.o: ../stac
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qarraydata.h \
   /usr/include/string.h \
   /usr/include/strings.h \
+  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
+  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
   /usr/include/c++/11/stdlib.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h \
   /usr/include/c++/11/string \
@@ -13785,6 +13998,7 @@ stacer/CMakeFiles/stacer.dir/Pages/SystemCleaner/byte_tree_widget.cpp.o: ../stac
   /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar2.h \
   /usr/include/c++/11/cstdint \
   /usr/include/c++/11/bits/allocator.h \
   /usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h \
@@ -13831,6 +14045,8 @@ stacer/CMakeFiles/stacer.dir/Pages/SystemCleaner/byte_tree_widget.cpp.o: ../stac
   /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
   /usr/include/c++/11/cerrno \
   /usr/include/errno.h \
   /usr/include/x86_64-linux-gnu/bits/errno.h \
@@ -14058,6 +14274,7 @@ stacer/CMakeFiles/stacer.dir/Pages/SystemCleaner/system_cleaner_page.cpp.o: ../s
   /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
+  /usr/include/x86_64-linux-gnu/bits/select2.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
   /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
@@ -14065,7 +14282,9 @@ stacer/CMakeFiles/stacer.dir/Pages/SystemCleaner/system_cleaner_page.cpp.o: ../s
   /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
   /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
   /usr/include/alloca.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib.h \
   /usr/include/c++/11/bits/std_abs.h \
   /usr/include/c++/11/bits/algorithmfwd.h \
   /usr/include/c++/11/bits/stl_heap.h \
@@ -14106,6 +14325,8 @@ stacer/CMakeFiles/stacer.dir/Pages/SystemCleaner/system_cleaner_page.cpp.o: ../s
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qarraydata.h \
   /usr/include/string.h \
   /usr/include/strings.h \
+  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
+  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
   /usr/include/c++/11/stdlib.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h \
   /usr/include/c++/11/string \
@@ -14120,6 +14341,7 @@ stacer/CMakeFiles/stacer.dir/Pages/SystemCleaner/system_cleaner_page.cpp.o: ../s
   /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar2.h \
   /usr/include/c++/11/cstdint \
   /usr/include/c++/11/bits/allocator.h \
   /usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h \
@@ -14166,6 +14388,8 @@ stacer/CMakeFiles/stacer.dir/Pages/SystemCleaner/system_cleaner_page.cpp.o: ../s
   /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
   /usr/include/c++/11/cerrno \
   /usr/include/errno.h \
   /usr/include/x86_64-linux-gnu/bits/errno.h \
@@ -14772,6 +14996,7 @@ stacer/CMakeFiles/stacer.dir/Pages/Uninstaller/uninstaller_page.cpp.o: ../stacer
   /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
+  /usr/include/x86_64-linux-gnu/bits/select2.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
   /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
@@ -14779,7 +15004,9 @@ stacer/CMakeFiles/stacer.dir/Pages/Uninstaller/uninstaller_page.cpp.o: ../stacer
   /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
   /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
   /usr/include/alloca.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib.h \
   /usr/include/c++/11/bits/std_abs.h \
   /usr/include/c++/11/bits/algorithmfwd.h \
   /usr/include/c++/11/bits/stl_heap.h \
@@ -14820,6 +15047,8 @@ stacer/CMakeFiles/stacer.dir/Pages/Uninstaller/uninstaller_page.cpp.o: ../stacer
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qarraydata.h \
   /usr/include/string.h \
   /usr/include/strings.h \
+  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
+  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
   /usr/include/c++/11/stdlib.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h \
   /usr/include/c++/11/string \
@@ -14834,6 +15063,7 @@ stacer/CMakeFiles/stacer.dir/Pages/Uninstaller/uninstaller_page.cpp.o: ../stacer
   /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar2.h \
   /usr/include/c++/11/cstdint \
   /usr/include/c++/11/bits/allocator.h \
   /usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h \
@@ -14880,6 +15110,8 @@ stacer/CMakeFiles/stacer.dir/Pages/Uninstaller/uninstaller_page.cpp.o: ../stacer
   /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
   /usr/include/c++/11/cerrno \
   /usr/include/errno.h \
   /usr/include/x86_64-linux-gnu/bits/errno.h \
@@ -15467,6 +15699,7 @@ stacer/CMakeFiles/stacer.dir/app.cpp.o: ../stacer/app.cpp \
   /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
+  /usr/include/x86_64-linux-gnu/bits/select2.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
   /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
@@ -15474,7 +15707,9 @@ stacer/CMakeFiles/stacer.dir/app.cpp.o: ../stacer/app.cpp \
   /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
   /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
   /usr/include/alloca.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib.h \
   /usr/include/c++/11/bits/std_abs.h \
   /usr/include/c++/11/bits/algorithmfwd.h \
   /usr/include/c++/11/bits/stl_heap.h \
@@ -15516,6 +15751,8 @@ stacer/CMakeFiles/stacer.dir/app.cpp.o: ../stacer/app.cpp \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qarraydata.h \
   /usr/include/string.h \
   /usr/include/strings.h \
+  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
+  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
   /usr/include/c++/11/stdlib.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h \
   /usr/include/c++/11/string \
@@ -15530,6 +15767,7 @@ stacer/CMakeFiles/stacer.dir/app.cpp.o: ../stacer/app.cpp \
   /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar2.h \
   /usr/include/c++/11/cstdint \
   /usr/include/c++/11/bits/allocator.h \
   /usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h \
@@ -15576,6 +15814,8 @@ stacer/CMakeFiles/stacer.dir/app.cpp.o: ../stacer/app.cpp \
   /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
   /usr/include/c++/11/cerrno \
   /usr/include/errno.h \
   /usr/include/x86_64-linux-gnu/bits/errno.h \
@@ -16623,6 +16863,7 @@ stacer/CMakeFiles/stacer.dir/feedback.cpp.o: ../stacer/feedback.cpp \
   /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
+  /usr/include/x86_64-linux-gnu/bits/select2.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
   /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
@@ -16630,7 +16871,9 @@ stacer/CMakeFiles/stacer.dir/feedback.cpp.o: ../stacer/feedback.cpp \
   /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
   /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
   /usr/include/alloca.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib.h \
   /usr/include/c++/11/bits/std_abs.h \
   /usr/include/c++/11/bits/algorithmfwd.h \
   /usr/include/c++/11/bits/stl_heap.h \
@@ -16672,6 +16915,8 @@ stacer/CMakeFiles/stacer.dir/feedback.cpp.o: ../stacer/feedback.cpp \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qarraydata.h \
   /usr/include/string.h \
   /usr/include/strings.h \
+  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
+  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
   /usr/include/c++/11/stdlib.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h \
   /usr/include/c++/11/string \
@@ -16686,6 +16931,7 @@ stacer/CMakeFiles/stacer.dir/feedback.cpp.o: ../stacer/feedback.cpp \
   /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar2.h \
   /usr/include/c++/11/cstdint \
   /usr/include/c++/11/bits/allocator.h \
   /usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h \
@@ -16732,6 +16978,8 @@ stacer/CMakeFiles/stacer.dir/feedback.cpp.o: ../stacer/feedback.cpp \
   /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
   /usr/include/c++/11/cerrno \
   /usr/include/errno.h \
   /usr/include/x86_64-linux-gnu/bits/errno.h \
@@ -17275,6 +17523,7 @@ stacer/CMakeFiles/stacer.dir/main.cpp.o: ../stacer/main.cpp \
   /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
+  /usr/include/x86_64-linux-gnu/bits/select2.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
   /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
@@ -17282,7 +17531,9 @@ stacer/CMakeFiles/stacer.dir/main.cpp.o: ../stacer/main.cpp \
   /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
   /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
   /usr/include/alloca.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib.h \
   /usr/include/c++/11/bits/std_abs.h \
   /usr/include/c++/11/bits/algorithmfwd.h \
   /usr/include/c++/11/bits/stl_heap.h \
@@ -17320,6 +17571,8 @@ stacer/CMakeFiles/stacer.dir/main.cpp.o: ../stacer/main.cpp \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qarraydata.h \
   /usr/include/string.h \
   /usr/include/strings.h \
+  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
+  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
   /usr/include/c++/11/stdlib.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h \
   /usr/include/c++/11/string \
@@ -17334,6 +17587,7 @@ stacer/CMakeFiles/stacer.dir/main.cpp.o: ../stacer/main.cpp \
   /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar2.h \
   /usr/include/c++/11/cstdint \
   /usr/include/c++/11/bits/allocator.h \
   /usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h \
@@ -17380,6 +17634,8 @@ stacer/CMakeFiles/stacer.dir/main.cpp.o: ../stacer/main.cpp \
   /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
   /usr/include/c++/11/cerrno \
   /usr/include/errno.h \
   /usr/include/x86_64-linux-gnu/bits/errno.h \
@@ -18420,6 +18676,7 @@ stacer/CMakeFiles/stacer.dir/signal_mapper.cpp.o: ../stacer/signal_mapper.cpp \
   /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
+  /usr/include/x86_64-linux-gnu/bits/select2.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
   /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
@@ -18427,7 +18684,9 @@ stacer/CMakeFiles/stacer.dir/signal_mapper.cpp.o: ../stacer/signal_mapper.cpp \
   /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
   /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
   /usr/include/alloca.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib.h \
   /usr/include/c++/11/bits/std_abs.h \
   /usr/include/c++/11/bits/algorithmfwd.h \
   /usr/include/c++/11/bits/stl_heap.h \
@@ -18462,6 +18721,8 @@ stacer/CMakeFiles/stacer.dir/signal_mapper.cpp.o: ../stacer/signal_mapper.cpp \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qarraydata.h \
   /usr/include/string.h \
   /usr/include/strings.h \
+  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
+  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
   /usr/include/c++/11/stdlib.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h \
   /usr/include/c++/11/string \
@@ -18476,6 +18737,7 @@ stacer/CMakeFiles/stacer.dir/signal_mapper.cpp.o: ../stacer/signal_mapper.cpp \
   /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar2.h \
   /usr/include/c++/11/cstdint \
   /usr/include/c++/11/bits/allocator.h \
   /usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h \
@@ -18522,6 +18784,8 @@ stacer/CMakeFiles/stacer.dir/signal_mapper.cpp.o: ../stacer/signal_mapper.cpp \
   /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
   /usr/include/c++/11/cerrno \
   /usr/include/errno.h \
   /usr/include/x86_64-linux-gnu/bits/errno.h \
@@ -18686,6 +18950,7 @@ stacer/CMakeFiles/stacer.dir/sliding_stacked_widget.cpp.o: ../stacer/sliding_sta
   /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
+  /usr/include/x86_64-linux-gnu/bits/select2.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
   /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
@@ -18693,7 +18958,9 @@ stacer/CMakeFiles/stacer.dir/sliding_stacked_widget.cpp.o: ../stacer/sliding_sta
   /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
   /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
   /usr/include/alloca.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib.h \
   /usr/include/c++/11/bits/std_abs.h \
   /usr/include/c++/11/bits/algorithmfwd.h \
   /usr/include/c++/11/bits/stl_heap.h \
@@ -18736,6 +19003,8 @@ stacer/CMakeFiles/stacer.dir/sliding_stacked_widget.cpp.o: ../stacer/sliding_sta
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qarraydata.h \
   /usr/include/string.h \
   /usr/include/strings.h \
+  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
+  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
   /usr/include/c++/11/stdlib.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h \
   /usr/include/c++/11/string \
@@ -18750,6 +19019,7 @@ stacer/CMakeFiles/stacer.dir/sliding_stacked_widget.cpp.o: ../stacer/sliding_sta
   /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar2.h \
   /usr/include/c++/11/cstdint \
   /usr/include/c++/11/bits/allocator.h \
   /usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h \
@@ -18796,6 +19066,8 @@ stacer/CMakeFiles/stacer.dir/sliding_stacked_widget.cpp.o: ../stacer/sliding_sta
   /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
   /usr/include/c++/11/cerrno \
   /usr/include/errno.h \
   /usr/include/x86_64-linux-gnu/bits/errno.h \
@@ -19440,6 +19712,7 @@ stacer/CMakeFiles/stacer.dir/stacer_autogen/mocs_compilation.cpp.o: stacer/stace
   /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar2.h \
   /usr/include/c++/11/bits/shared_ptr_base.h \
   /usr/include/c++/11/typeinfo \
   /usr/include/c++/11/bits/allocated_ptr.h \
@@ -19513,8 +19786,11 @@ stacer/CMakeFiles/stacer.dir/stacer_autogen/mocs_compilation.cpp.o: stacer/stace
   /usr/include/x86_64-linux-gnu/sys/select.h \
   /usr/include/x86_64-linux-gnu/bits/select.h \
   /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
+  /usr/include/x86_64-linux-gnu/bits/select2.h \
   /usr/include/alloca.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib.h \
   /usr/include/c++/11/bits/std_abs.h \
   /usr/include/c++/11/bits/algorithmfwd.h \
   /usr/include/c++/11/bits/stl_heap.h \
@@ -19546,6 +19822,8 @@ stacer/CMakeFiles/stacer.dir/stacer_autogen/mocs_compilation.cpp.o: stacer/stace
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qarraydata.h \
   /usr/include/string.h \
   /usr/include/strings.h \
+  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
+  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
   /usr/include/c++/11/stdlib.h \
   /usr/include/c++/11/string \
   /usr/include/c++/11/bits/char_traits.h \
@@ -19568,6 +19846,8 @@ stacer/CMakeFiles/stacer.dir/stacer_autogen/mocs_compilation.cpp.o: stacer/stace
   /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
   /usr/include/c++/11/cerrno \
   /usr/include/errno.h \
   /usr/include/x86_64-linux-gnu/bits/errno.h \
@@ -20577,8 +20857,6 @@ stacer/stacer_autogen/Y26RYMVXDP/moc_circlebar.cpp:
 
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QMainWindow:
 
-../stacer/Pages/Uninstaller/uninstaller_page.cpp:
-
 ../stacer/Pages/SystemCleaner/byte_tree_widget.cpp:
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/QAbstractItemModel:
@@ -20606,8 +20884,6 @@ stacer/stacer_autogen/include/ui_resources_page.h:
 stacer/stacer_autogen/mocs_compilation.cpp:
 
 stacer/stacer_autogen/include/ui_history_chart.h:
-
-../stacer/Pages/Resources/history_chart.h:
 
 ../stacer/Pages/Resources/history_chart.cpp:
 
@@ -20979,8 +21255,6 @@ stacer/stacer_autogen/include/ui_circlebar.h:
 
 /usr/include/x86_64-linux-gnu/qt5/QtGui/qopenglfunctions.h:
 
-/usr/include/x86_64-linux-gnu/qt5/QtGui/qopengldebug.h:
-
 /usr/include/x86_64-linux-gnu/qt5/QtGui/QSurfaceFormat:
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/QScopedPointer:
@@ -21161,11 +21435,23 @@ stacer/stacer_autogen/LKB6ER4NXJ/moc_services_page.cpp:
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qqueue.h:
 
-/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qgraphicsanchorlayout.h:
+/usr/include/x86_64-linux-gnu/qt5/QtCharts/QCandlestickSeries:
 
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qregexp.h:
+/usr/include/x86_64-linux-gnu/qt5/QtCharts/qbarcategoryaxis.h:
 
-/usr/include/x86_64-linux-gnu/bits/uio_lim.h:
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qprocess.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qpluginloader.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qpointer.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qplugin.h:
+
+stacer/stacer_autogen/C6VBYU5J2Q/moc_resources_page.cpp:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qparallelanimationgroup.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qoperatingsystemversion.h:
 
 stacer/stacer_autogen/B3NEQKZX56/moc_helpers_page.cpp:
 
@@ -21261,10 +21547,6 @@ stacer/stacer_autogen/include/ui_services_page.h:
 
 /usr/include/c++/11/bits/ios_base.h:
 
-/usr/include/c++/11/bits/streambuf_iterator.h:
-
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qcoreapplication.h:
-
 /usr/include/c++/11/iterator:
 
 /usr/include/x86_64-linux-gnu/qt5/QtConcurrent/qtconcurrentreducekernel.h:
@@ -21299,6 +21581,12 @@ stacer/stacer_autogen/include/ui_services_page.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h:
 
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QGraphicsView:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qpair.h:
+
 /usr/include/x86_64-linux-gnu/qt5/QtCharts/qdatetimeaxis.h:
 
 /usr/include/stdio.h:
@@ -21312,14 +21600,6 @@ stacer/stacer_autogen/include/ui_services_page.h:
 stacer/stacer_autogen/include/ui_search_page.h:
 
 /usr/include/c++/11/list:
-
-/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QGraphicsView:
-
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qpair.h:
-
-/usr/include/c++/11/string:
-
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qatomic_cxx11.h:
 
 /usr/include/x86_64-linux-gnu/bits/iscanonical.h:
 
@@ -21433,13 +21713,35 @@ stacer/stacer_autogen/include/ui_dashboard_page.h:
 
 stacer/stacer_autogen/include/ui_apt_source_edit.h:
 
-../stacer/Pages/GnomeSettings/gnome_settings_page.cpp:
+/usr/include/x86_64-linux-gnu/bits/wchar2.h:
 
-/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QRadioButton:
+/usr/include/x86_64-linux-gnu/qt5/QtCore/QDebug:
 
-/usr/include/x86_64-linux-gnu/qt5/QtCore/QtCoreDepends:
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qabstracteventdispatcher.h:
 
-/usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h:
+/usr/include/x86_64-linux-gnu/bits/types/struct_tm.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCharts/qlogvalueaxis.h:
+
+/usr/include/c++/11/bits/this_thread_sleep.h:
+
+../stacer/Pages/GnomeSettings/window_manager_settings.cpp:
+
+/usr/include/c++/11/bits/stl_function.h:
+
+/usr/include/c++/11/bits/stringfwd.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qatomic_cxx11.h:
+
+/usr/include/c++/11/string:
+
+/usr/include/x86_64-linux-gnu/bits/uio_lim.h:
+
+/usr/include/c++/11/debug/assertions.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qsharedpointer.h:
+
+/usr/include/c++/11/stdlib.h:
 
 /usr/include/x86_64-linux-gnu/sys/types.h:
 
@@ -21456,6 +21758,8 @@ stacer/stacer_autogen/include/ui_apt_source_edit.h:
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qlibraryinfo.h:
 
 /usr/include/x86_64-linux-gnu/qt5/QtGui/qopenglbuffer.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h:
 
 /usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h:
 
@@ -21493,9 +21797,9 @@ stacer/stacer_autogen/include/ui_apt_source_edit.h:
 
 /usr/include/c++/11/bits/concept_check.h:
 
-../stacer/signal_mapper.cpp:
+/usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h:
 
-/usr/include/x86_64-linux-gnu/bits/posix2_lim.h:
+/usr/include/x86_64-linux-gnu/bits/types/sigset_t.h:
 
 /usr/include/linux/limits.h:
 
@@ -21520,6 +21824,10 @@ stacer/stacer_autogen/include/ui_apt_source_edit.h:
 /usr/include/c++/11/bits/ptr_traits.h:
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qsettings.h:
+
+/usr/include/c++/11/bits/streambuf_iterator.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qcoreapplication.h:
 
 /usr/include/x86_64-linux-gnu/qt5/QtGui/qdrag.h:
 
@@ -21615,12 +21923,6 @@ stacer/stacer_autogen/include/ui_system_cleaner_page.h:
 
 /usr/include/x86_64-linux-gnu/qt5/QtGui/qrgba64.h:
 
-/usr/include/x86_64-linux-gnu/qt5/QtGui/QMatrix3x3:
-
-/usr/include/x86_64-linux-gnu/qt5/QtGui/qtguiglobal.h:
-
-/usr/include/c++/11/limits:
-
 /usr/include/x86_64-linux-gnu/qt5/QtGui/qopenglshaderprogram.h:
 
 ../stacer/signal_mapper.h:
@@ -21645,6 +21947,16 @@ stacer/stacer_autogen/include/ui_system_cleaner_page.h:
 
 /usr/include/c++/11/tuple:
 
+/usr/include/x86_64-linux-gnu/qt5/QtGui/qopengldebug.h:
+
+/usr/include/x86_64-linux-gnu/bits/string_fortified.h:
+
+../stacer/Pages/GnomeSettings/gnome_settings_page.cpp:
+
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QRadioButton:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/QtCoreDepends:
+
 /usr/include/x86_64-linux-gnu/qt5/QtGui/qopengl.h:
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qatomic.h:
@@ -21653,6 +21965,12 @@ stacer/stacer_autogen/include/ui_system_cleaner_page.h:
 
 /usr/include/locale.h:
 
+/usr/include/x86_64-linux-gnu/qt5/QtCharts/QPieSlice:
+
+/usr/include/c++/11/bits/memoryfwd.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qstorageinfo.h:
+
 /usr/include/x86_64-linux-gnu/bits/setjmp.h:
 
 /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h:
@@ -21660,10 +21978,6 @@ stacer/stacer_autogen/include/ui_system_cleaner_page.h:
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qmutex.h:
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qnumeric.h:
-
-/usr/include/x86_64-linux-gnu/bits/xopen_lim.h:
-
-/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qrubberband.h:
 
 /usr/include/x86_64-linux-gnu/bits/libc-header-start.h:
 
@@ -21703,18 +22017,6 @@ stacer/stacer_autogen/include/ui_system_cleaner_page.h:
 
 /usr/include/x86_64-linux-gnu/qt5/QtCharts/QtChartsDepends:
 
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qpluginloader.h:
-
-../stacer/Pages/GnomeSettings/window_manager_settings.cpp:
-
-/usr/include/c++/11/bits/stl_function.h:
-
-/usr/include/x86_64-linux-gnu/qt5/QtCharts/QPieSlice:
-
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qstorageinfo.h:
-
-/usr/include/c++/11/bits/memoryfwd.h:
-
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qurlquery.h:
 
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgetsglobal.h:
@@ -21742,14 +22044,6 @@ stacer/stacer_autogen/include/ui_system_cleaner_page.h:
 /usr/include/c++/11/bits/uniform_int_dist.h:
 
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QGraphicsDropShadowEffect:
-
-/usr/include/c++/11/debug/assertions.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/sigset_t.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h:
-
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qsharedpointer.h:
 
 /usr/include/x86_64-linux-gnu/bits/wordsize.h:
 
@@ -21783,8 +22077,6 @@ stacer/stacer_autogen/include/ui_system_cleaner_page.h:
 
 /usr/include/x86_64-linux-gnu/asm/errno.h:
 
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qpointer.h:
-
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qshortcut.h:
 
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qplaintextedit.h:
@@ -21792,6 +22084,12 @@ stacer/stacer_autogen/include/ui_system_cleaner_page.h:
 /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h:
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qtypeinfo.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtGui/QMatrix3x3:
+
+/usr/include/x86_64-linux-gnu/qt5/QtGui/qtguiglobal.h:
+
+/usr/include/c++/11/limits:
 
 /usr/include/wchar.h:
 
@@ -21815,12 +22113,6 @@ stacer/stacer_autogen/include/ui_system_cleaner_page.h:
 
 /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h:
 
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qstringlist.h:
-
-/usr/include/x86_64-linux-gnu/qt5/QtGui/qopengltimerquery.h:
-
-/usr/include/x86_64-linux-gnu/qt5/QtGui/qtextformat.h:
-
 /usr/include/x86_64-linux-gnu/qt5/QtCharts/QXYSeries:
 
 /usr/include/c++/11/cstdlib:
@@ -21843,12 +22135,6 @@ stacer/stacer_autogen/include/ui_system_cleaner_page.h:
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qobjectdefs.h:
 
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qbytearraylist.h:
-
-stacer/stacer_autogen/E5LRQW7RGW/moc_startup_app_edit.cpp:
-
-/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QSpacerItem:
-
 /usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h:
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qdatastream.h:
@@ -21862,6 +22148,8 @@ stacer/stacer_autogen/E5LRQW7RGW/moc_startup_app_edit.cpp:
 stacer/stacer_autogen/E5LRQW7RGW/moc_startup_app.cpp:
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qcommandlineparser.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdlib.h:
 
 /usr/include/c++/11/bits/functexcept.h:
 
@@ -21893,6 +22181,10 @@ stacer/stacer_autogen/E5LRQW7RGW/moc_startup_app.cpp:
 
 /usr/include/c++/11/cwchar:
 
+../stacer/Pages/Uninstaller/uninstaller_page.cpp:
+
+/usr/include/x86_64-linux-gnu/bits/select2.h:
+
 /usr/include/x86_64-linux-gnu/qt5/QtGui/QBrush:
 
 /usr/include/c++/11/bits/stl_algobase.h:
@@ -21922,6 +22214,14 @@ stacer/stacer_autogen/E5LRQW7RGW/moc_startup_app.cpp:
 /usr/include/x86_64-linux-gnu/gnu/stubs.h:
 
 ../stacer/utilities.h:
+
+../stacer/Pages/Resources/history_chart.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdio.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qbytearray.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlineedit.h:
 
 stacer/stacer_autogen/include/ui_startup_apps_page.h:
 
@@ -22015,8 +22315,6 @@ stacer/stacer_autogen/include/ui_apt_source_repository_item.h:
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qchar.h:
 
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qstringmatcher.h:
-
 /usr/include/x86_64-linux-gnu/qt5/QtCharts/qlegend.h:
 
 /usr/include/x86_64-linux-gnu/bits/cpu-set.h:
@@ -22043,15 +22341,35 @@ stacer/stacer_autogen/include/ui_apt_source_repository_item.h:
 
 /usr/include/strings.h:
 
-/usr/include/c++/11/stdlib.h:
+/usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h:
 
-/usr/include/x86_64-linux-gnu/bits/types/struct_tm.h:
+/usr/include/x86_64-linux-gnu/bits/strings_fortified.h:
 
-/usr/include/x86_64-linux-gnu/qt5/QtCharts/qlogvalueaxis.h:
+../stacer/signal_mapper.cpp:
 
-/usr/include/c++/11/bits/this_thread_sleep.h:
+/usr/include/x86_64-linux-gnu/bits/posix2_lim.h:
 
-/usr/include/c++/11/bits/stringfwd.h:
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qrubberband.h:
+
+/usr/include/x86_64-linux-gnu/bits/xopen_lim.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qbytearraylist.h:
+
+stacer/stacer_autogen/E5LRQW7RGW/moc_startup_app_edit.cpp:
+
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QSpacerItem:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qstringlist.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtGui/qopengltimerquery.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtGui/qtextformat.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qgraphicsanchorlayout.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qregexp.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qstringmatcher.h:
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qvarlengtharray.h:
 
@@ -22102,8 +22420,6 @@ stacer/stacer_autogen/7JCKBFAOMW/moc_apt_source_manager_page.cpp:
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qsize.h:
 
 /usr/include/x86_64-linux-gnu/qt5/QtGui/qcursor.h:
-
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qoperatingsystemversion.h:
 
 /usr/include/x86_64-linux-gnu/qt5/QtGui/qguiapplication.h:
 
@@ -22289,9 +22605,9 @@ stacer/stacer_autogen/673D3DSXIW/moc_system_cleaner_page.cpp:
 
 /usr/include/x86_64-linux-gnu/bits/math-vector.h:
 
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qscopedpointer.h:
-
 /usr/include/c++/11/bits/allocator.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qscopedpointer.h:
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qline.h:
 
@@ -22335,10 +22651,6 @@ stacer/stacer_autogen/673D3DSXIW/moc_system_cleaner_page.cpp:
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/QSharedPointer:
 
-/usr/include/x86_64-linux-gnu/qt5/QtCore/QDebug:
-
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qabstracteventdispatcher.h:
-
 ../stacer/Pages/GnomeSettings/appearance_settings.h:
 
 ../stacer/Managers/info_manager.cpp:
@@ -22364,6 +22676,12 @@ stacer/stacer_autogen/include/ui_startup_app.h:
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qscroller.h:
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qfactoryinterface.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtGui/qbitmap.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qpauseanimation.h:
+
+../stacer-core/Info/memory_info.h:
 
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qfileiconprovider.h:
 
@@ -22466,10 +22784,6 @@ stacer/stacer_autogen/include/ui_startup_app.h:
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qframe.h:
 
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QLineEdit:
-
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qbytearray.h:
-
-/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlineedit.h:
 
 /usr/include/x86_64-linux-gnu/qt5/QtGui/QScreen:
 
@@ -22619,8 +22933,6 @@ stacer/stacer_autogen/include/ui_apt_source_manager_page.h:
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qloggingcategory.h:
 
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qplugin.h:
-
 /usr/include/x86_64-linux-gnu/bits/flt-eval-method.h:
 
 /usr/include/x86_64-linux-gnu/bits/fp-fast.h:
@@ -22638,19 +22950,3 @@ stacer/stacer_autogen/include/ui_apt_source_manager_page.h:
 /usr/include/x86_64-linux-gnu/bits/fp-logb.h:
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qmimetype.h:
-
-stacer/stacer_autogen/C6VBYU5J2Q/moc_resources_page.cpp:
-
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qparallelanimationgroup.h:
-
-/usr/include/x86_64-linux-gnu/qt5/QtGui/qbitmap.h:
-
-../stacer-core/Info/memory_info.h:
-
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qpauseanimation.h:
-
-/usr/include/x86_64-linux-gnu/qt5/QtCharts/QCandlestickSeries:
-
-/usr/include/x86_64-linux-gnu/qt5/QtCharts/qbarcategoryaxis.h:
-
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qprocess.h:

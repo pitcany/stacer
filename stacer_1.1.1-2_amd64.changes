@@ -1,0 +1,31 @@
+Format: 1.8
+Date: Fri, 15 Nov 2024 00:00:00 +0000
+Source: stacer
+Binary: stacer
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 1.1.1-2
+Distribution: stable
+Urgency: medium
+Maintainer: Oguzhan INAN <oguzhan3488@gmail.com>
+Changed-By: CPU Speed Fix <fix@stacer.local>
+Description:
+ stacer     - Linux System Optimizer and Monitoring
+Changes:
+ stacer (1.1.1-2) stable; urgency=medium
+ .
+   * Fixed CPU speed showing as 0GHz on modern systems
+   * Added missing else block in system_info.cpp for "CPU max MHz" detection
+   * Modern AMD/Intel CPUs now display correct speed (e.g., 5.714GHz)
+Checksums-Sha1:
+ 635d2750f6407587b7e074603f59f63242d22ae7 8003368 stacer-dbgsym_1.1.1-2_amd64.ddeb
+ 0c0a87dc8b76f0fbe09c8ce8a8786e15cd501043 6474 stacer_1.1.1-2_amd64.buildinfo
+ 34e6086ac1432c8f1ac6097a32bc0d2d507c8ff3 809738 stacer_1.1.1-2_amd64.deb
+Checksums-Sha256:
+ 3c0869c1f1fea4ce5bd0c4695225d515da236461b8ce38cf1f94ea78aae1bb1a 8003368 stacer-dbgsym_1.1.1-2_amd64.ddeb
+ e10c2c0f1ba1425d6df4f16c8b396691d6ca80d6a014e984cce3ebe49f238df9 6474 stacer_1.1.1-2_amd64.buildinfo
+ f629baa9ab493c0d59a47e9bfdff6ced03d8b09d166121b88bf9d217360aca7e 809738 stacer_1.1.1-2_amd64.deb
+Files:
+ e7aa051bc66a7cf3b3fd0da50c1dda97 8003368 debug optional stacer-dbgsym_1.1.1-2_amd64.ddeb
+ 77ddccd6cbb7659d104ed99e56beea4b 6474 utils optional stacer_1.1.1-2_amd64.buildinfo
+ c54866c733c312bda53c30074c206960 809738 utils optional stacer_1.1.1-2_amd64.deb

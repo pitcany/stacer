@@ -1,13 +1,13 @@
 Package: stacer-dbgsym
 Package-Type: ddeb
 Source: stacer
-Version: 1.1.1-1
+Version: 1.1.1-2
 Auto-Built-Package: debug-symbols
 Architecture: amd64
 Maintainer: Oguzhan INAN <oguzhan3488@gmail.com>
 Installed-Size: 8171
-Depends: stacer (= 1.1.1-1)
+Depends: stacer (= 1.1.1-2)
 Section: debug
 Priority: optional
 Description: debug symbols for stacer
-Build-Ids: 6768347811b6db90f711a11f28da957f1790e4d9
+Build-Ids: 7639d592d0aa9cc5f093b281bc1a538639998fbe
