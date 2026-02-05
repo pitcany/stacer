@@ -1,5 +1,4 @@
-
-cmake_minimum_required(VERSION 3.1 FATAL_ERROR)
+cmake_minimum_required(VERSION 3.5 FATAL_ERROR)
 project(stacer)
 
 set(MANAGERS_DIR  "${CMAKE_CURRENT_SOURCE_DIR}/Managers")
@@ -21,13 +20,20 @@ include_directories(
 )
 
 # Sources
-file(GLOB_RECURSE ${PROJECT_NAME}_srcs         "${CMAKE_CURRENT_SOURCE_DIR}/**.cpp")
-file(GLOB_RECURSE ${PROJECT_NAME}_translations "${PROJECT_ROOT}/translations/**.ts")
+file(GLOB_RECURSE ${PROJECT_NAME}_srcs         "${CMAKE_CURRENT_SOURCE_DIR}/*.cpp")
+file(GLOB_RECURSE ${PROJECT_NAME}_translations "${PROJECT_ROOT}/translations/*.ts")
 
-# Translations
-find_package(Qt5LinguistTools)
-qt5_create_translation(QM_FILES  ${PROJECT_NAME}_translations  ${${PROJECT_NAME}_srcs})
-set_directory_properties(PROPERTIES  ADDITIONAL_MAKE_CLEAN_FILES  "${QM_FILES}")
+# Translations (optional - only if Qt5LinguistTools is found)
+find_package(Qt5LinguistTools QUIET)
+if(Qt5LinguistTools_FOUND)
+  # qt5_create_translation updates .ts files from source and compiles to .qm
+  # Arguments: OUTPUT_VAR SOURCES TS_FILES
+  qt5_create_translation(QM_FILES ${${PROJECT_NAME}_srcs} ${${PROJECT_NAME}_translations})
+  set_directory_properties(PROPERTIES ADDITIONAL_MAKE_CLEAN_FILES "${QM_FILES}")
+else()
+  message(STATUS "Qt5LinguistTools not found - translations will not be compiled")
+  set(QM_FILES "")
+endif()
 
 set(CMAKE_AUTOUIC ON)
 set(CMAKE_AUTORCC ON)
@@ -43,9 +49,21 @@ target_link_libraries(${PROJECT_NAME}
 )
 
 # Running LTO in Release builds, if the C++ compiler is GNU GCC
-if("${CMAKE_BUILD_TYPE}" STREQUAL "Release"  AND  "${CMAKE_CXX_COMPILER_ID}" STREQUAL "GNU")
-  target_compile_options(${PROJECT_NAME}  PRIVATE  "-flto")
-  list(APPEND CMAKE_EXE_LINKER_FLAGS "-flto")
+if("${CMAKE_BUILD_TYPE}" STREQUAL "Release" AND "${CMAKE_CXX_COMPILER_ID}" STREQUAL "GNU")
+  # Check if LTO is supported
+  include(CheckIPOSupported OPTIONAL RESULT_VARIABLE CHECK_IPO_AVAILABLE)
+  if(CHECK_IPO_AVAILABLE)
+    check_ipo_supported(RESULT LTO_SUPPORTED OUTPUT LTO_ERROR)
+    if(LTO_SUPPORTED)
+      set_property(TARGET ${PROJECT_NAME} PROPERTY INTERPROCEDURAL_OPTIMIZATION TRUE)
+    else()
+      message(STATUS "LTO not supported: ${LTO_ERROR}")
+    endif()
+  else()
+    # Fallback for older CMake
+    target_compile_options(${PROJECT_NAME} PRIVATE "-flto")
+    target_link_options(${PROJECT_NAME} PRIVATE "-flto")
+  endif()
 endif()
 
 install(
