@@ -8,16 +8,10 @@ This fork only adds build and packaging support for <b>Ubuntu 22.04 (Jammy)</b> 
     <img src="https://raw.githubusercontent.com/oguzhaninan/Stacer/native/screenshots/header.png" width="800">    
 </p>
 <p align="center">
-  <b>Linux System Optimizer and Monitoring</b>   <br>
-  <a href="https://www.patreon.com/oguzhaninan">
-	<img alt="Patreon" src="https://c5.patreon.com/external/logo/become_a_patron_button.png" height="50" />
-</a>
+  <b>Linux System Optimizer and Monitoring</b>
 </p>
 
 <p align="center">
-	<a href="https://sourceforge.net/projects/stacer/files/" rel="nofollow">
-		<img alt="Download Stacer" src="https://img.shields.io/sourceforge/dt/stacer.svg"/>
-	</a>
 	<a href="http://www.kernel.org">
 		<img alt="Platform (GNU/Linux)" src="https://img.shields.io/badge/platform-GNU/Linux-blue.svg"/>
 	</a>
@@ -25,11 +19,6 @@ This fork only adds build and packaging support for <b>Ubuntu 22.04 (Jammy)</b> 
 		<img alt="Github All Releases" src="https://img.shields.io/github/downloads/oguzhaninan/stacer/total.svg"/>
 	</a>
 </p>
-<p align="center">
-	<a href="https://sourceforge.net/projects/stacer/files/" >
-		<img src="https://a.fsdn.com/con/app/sf-download-button" />
-	</a>
-</p>	
 
 ## Reviews
 <p align="left">
