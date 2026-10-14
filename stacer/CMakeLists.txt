@@ -35,6 +35,9 @@ if(Qt5LinguistTools_FOUND)
   # on every build: it rewrites the tracked .ts files and, as it only scans the .cpp files
   # (not the .ui forms), marks their strings as vanished so they are dropped from the .qm.
   # Update the .ts files on purpose with: lupdate stacer/stacer.pro
+  # Put the .qm files next to the binary, where AppManager looks for them in a build tree.
+  set_source_files_properties(${${PROJECT_NAME}_translations}
+    PROPERTIES OUTPUT_LOCATION "${EXECUTABLE_OUTPUT_PATH}/translations")
   qt5_add_translation(QM_FILES ${${PROJECT_NAME}_translations})
   set_directory_properties(PROPERTIES ADDITIONAL_MAKE_CLEAN_FILES "${QM_FILES}")
 else()
@@ -86,6 +89,14 @@ install(
   DESTINATION     share/applications
   CONFIGURATIONS  Release RelWithDebInfo MinSizeRel
 )
+
+if(QM_FILES)
+  install(
+    FILES           ${QM_FILES}
+    DESTINATION     share/stacer/translations
+    CONFIGURATIONS  Release RelWithDebInfo MinSizeRel
+  )
+endif()
 
 install(
   FILES           "${PROJECT_ROOT}/stacer/static/logo.png"
