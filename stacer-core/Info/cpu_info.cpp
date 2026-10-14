@@ -67,9 +67,23 @@ QList<double> CpuInfo::getLoadAvgs() const
 
 double CpuInfo::getAvgClock() const
 {
+    // Average the current per-core clocks from /proc/cpuinfo. lscpu from util-linux 2.37+
+    // no longer prints a "CPU MHz" line, so it is only a fallback (e.g. "CPU max MHz" on ARM).
+    const QList<double> clocks = getClocks();
+    if (! clocks.isEmpty()) {
+        double sum = 0;
+        for (double clock : clocks) {
+            sum += clock;
+        }
+        return sum / clocks.count();
+    }
+
     const QStringList lines = CommandUtil::exec("bash",{"-c", LSCPU_COMMAND}).split('\n');
-    const QString clockMHz = lines.filter(QRegExp("^CPU MHz")).first().split(":").last();
-    return clockMHz.toDouble();
+    QStringList clockLines = lines.filter(QRegExp("^CPU MHz"));
+    if (clockLines.isEmpty()) {
+        clockLines = lines.filter(QRegExp("^CPU max MHz"));
+    }
+    return clockLines.isEmpty() ? 0.0 : clockLines.first().split(":").last().toDouble();
 }
 
 QList<double> CpuInfo::getClocks() const
