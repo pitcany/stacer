@@ -15,8 +15,8 @@ This fork only adds build and packaging support for <b>Ubuntu 22.04 (Jammy)</b> 
 	<a href="http://www.kernel.org">
 		<img alt="Platform (GNU/Linux)" src="https://img.shields.io/badge/platform-GNU/Linux-blue.svg"/>
 	</a>
-	<a href="https://github.com/oguzhaninan/Stacer/releases">
-		<img alt="Github All Releases" src="https://img.shields.io/github/downloads/oguzhaninan/stacer/total.svg"/>
+	<a href="https://github.com/pitcany/stacer/releases">
+		<img alt="Github All Releases" src="https://img.shields.io/github/downloads/pitcany/stacer/total.svg"/>
 	</a>
 </p>
 
