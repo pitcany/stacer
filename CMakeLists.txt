@@ -14,9 +14,9 @@ project(Stacer VERSION 1.1.0 LANGUAGES CXX)
 include("${CMAKE_CURRENT_SOURCE_DIR}/cmake/cxxbasics/CXXBasics.cmake")
 
 # Setting a cleaner directory structure for the generated binaries
-set(CMAKE_BINARY_DIR        "${CMAKE_BINARY_DIR}/output")
-set(EXECUTABLE_OUTPUT_PATH  "${CMAKE_BINARY_DIR}/")
-set(LIBRARY_OUTPUT_PATH     "${CMAKE_BINARY_DIR}/lib")
+# (CMAKE_BINARY_DIR must stay untouched, otherwise CPack cannot find the build tree)
+set(EXECUTABLE_OUTPUT_PATH  "${CMAKE_BINARY_DIR}/output/")
+set(LIBRARY_OUTPUT_PATH     "${CMAKE_BINARY_DIR}/output/lib")
 
 set(PROJECT_ROOT "${CMAKE_CURRENT_SOURCE_DIR}")
 

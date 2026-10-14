@@ -1,6 +1,11 @@
 cmake_minimum_required(VERSION 3.5 FATAL_ERROR)
 project(stacer)
 
+# check_ipo_supported() requires CMP0069 to be NEW
+if(POLICY CMP0069)
+  cmake_policy(SET CMP0069 NEW)
+endif()
+
 set(MANAGERS_DIR  "${CMAKE_CURRENT_SOURCE_DIR}/Managers")
 set(PAGES_DIR     "${CMAKE_CURRENT_SOURCE_DIR}/Pages")
 
@@ -49,7 +54,9 @@ target_link_libraries(${PROJECT_NAME}
 )
 
 # Running LTO in Release builds, if the C++ compiler is GNU GCC
-if("${CMAKE_BUILD_TYPE}" STREQUAL "Release" AND "${CMAKE_CXX_COMPILER_ID}" STREQUAL "GNU")
+# (not when cxxbasics selected the lld linker, which cannot link GCC's LTO objects)
+if("${CMAKE_BUILD_TYPE}" STREQUAL "Release" AND "${CMAKE_CXX_COMPILER_ID}" STREQUAL "GNU"
+   AND NOT "${CMAKE_CXX_LINK_FLAGS}" MATCHES "fuse-ld=lld")
   # Check if LTO is supported
   include(CheckIPOSupported OPTIONAL RESULT_VARIABLE CHECK_IPO_AVAILABLE)
   if(CHECK_IPO_AVAILABLE)
