@@ -1,6 +1,7 @@
 
 <p align="center">
-⚠️ <b>This project has been abandoned. There will be no further releases </b>⚠️
+⚠️ <b>The upstream project has been abandoned. There will be no further upstream releases.</b> ⚠️<br>
+This fork only adds build and packaging support for <b>Ubuntu 22.04 (Jammy)</b> and <b>Ubuntu 24.04 (Noble)</b>.
 </p>
 
 <p align="center">
@@ -44,20 +45,86 @@
 	</a>
 </p>
 
-### Required Packages
-- curl, systemd
+## Ubuntu 22.04 / 24.04 (build from source)
+
+This fork builds Stacer 1.1.0 against the Qt 5 packages shipped with Ubuntu 22.04 and 24.04.
+No pre-built packages are published for this fork, so build from source (or build your own `.deb`).
+
+### Quick start
+
+```bash
+git clone https://github.com/pitcany/stacer.git
+cd stacer
+
+# Install dependencies, build (Release) and launch Stacer
+./scripts/bootstrap-ubuntu-build.sh --run
+```
+
+`bootstrap-ubuntu-build.sh` accepts `--deps-only`, `--build` (default) and `--run`. It uses `sudo apt-get` to install the dependencies.
+
+### Helper scripts
+
+| Script | Purpose |
+|--------|---------|
+| `scripts/bootstrap-ubuntu-build.sh` | Install dependencies, then build and optionally run |
+| `scripts/build.sh [Debug\|Release] [--clean] [--verbose]` | Out-of-tree CMake build in `build/` |
+| `scripts/run.sh [--debug] [-- ARGS...]` | Run the built binary (`--debug` runs under gdb) |
+| `scripts/package.sh [deb\|tar\|all]` | Create a `.deb` and/or `.tar.gz` with CPack |
+
+### Build dependencies
+
+```bash
+sudo apt-get update
+sudo apt-get install -y build-essential cmake pkg-config git \
+    qtbase5-dev qtbase5-dev-tools qttools5-dev qttools5-dev-tools \
+    libqt5svg5-dev libqt5charts5-dev
+```
+
+Runtime requirements are the Qt 5 libraries above plus the xcb platform plugin libraries (`libxcb-xinerama0`, `libxcb-cursor0`, `libxkbcommon-x11-0`); `curl` and `systemd` are recommended. See [docs/BUILD_UBUNTU.md](docs/BUILD_UBUNTU.md) for the full package list, troubleshooting and command-line options.
+
+### Build and package manually
+
+```bash
+./scripts/build.sh Release        # binary: build/output/stacer
+./scripts/run.sh
+
+./scripts/package.sh deb          # e.g. build/stacer-1.1.0-Linux-x86_64.deb
+sudo dpkg -i build/stacer-*.deb
+sudo apt-get install -f           # only if dependencies are missing
+```
+
+### What changed for modern Ubuntu
+
+- Qt 5.14+ compatibility: removed the global `endl` from `QTextStream` usage.
+- CMake minimum raised to 3.5, C++ standard raised to C++14.
+- Fixed `qt5_create_translation` argument order and the source `GLOB` patterns.
+- LTO now uses CMake's IPO support instead of raw compiler flags.
+- Added CPack configuration for `.deb` and `.tar.gz` packages.
+
+## Build from source with CMake (any distribution, Qt 5.x)
+Requires CMake 3.5+, a C++14 compiler and Qt 5 (Core, Gui, Widgets, Svg, Charts, Concurrent, Network).
+
+1. `mkdir build && cd build`
+2. `cmake -DCMAKE_BUILD_TYPE=Release -DCMAKE_PREFIX_PATH=/qt/path ..` (omit `CMAKE_PREFIX_PATH` if Qt 5 is installed system-wide)
+3. `make -j $(nproc)`
+4. `output/stacer`
+
+Qt 6 is not supported.
+
+## Upstream installation methods
+
+> These install the **upstream** Stacer builds, not this fork. Upstream is abandoned, and these methods have not been verified on Ubuntu 22.04/24.04 by this fork.
+
+Runtime requirements: curl, systemd.
 
 ### PPA Repository (for ubuntu)
 1. `sudo add-apt-repository ppa:oguzhaninan/stacer -y`   
 2. `sudo apt-get update`   
 3. `sudo apt-get install stacer -y`
 
+### Debian sid / Ubuntu 20.04+
 
-### Arch Linux (AUR)
-1. Install the stacer package with a AUR helper of your choice eg.
-2. `yay -Syyu stacer`
-3. `paru -S stacer`
-4. `pacaur -a stacer`
+1. Run as root `apt install stacer`
 
 ### Debian x64
 
@@ -65,9 +132,11 @@
 2. Run `sudo dpkg -i stacer*.deb` on the downloaded package.
 3. Launch Stacer using the installed `stacer` command.
 
-### Debian sid / Ubuntu 20.04+
-
-1. Run as root `apt install stacer`
+### Arch Linux (AUR)
+1. Install the stacer package with a AUR helper of your choice eg.
+2. `yay -Syyu stacer`
+3. `paru -S stacer`
+4. `pacaur -a stacer`
 
 ### Fedora
 1. Download `stacer_1.1.0_amd64.rpm` from the [Stacer releases page](https://github.com/oguzhaninan/Stacer/releases).
@@ -77,12 +146,6 @@
 ### Fedora (with DNF)
 1. Run: `sudo dnf install stacer`
 2. Launch Stacer using the installed `stacer` command.
-
-## Build from source with CMake (Qt Version Qt 5.x)
-1. `mkdir build && cd build`
-2. `cmake -DCMAKE_BUILD_TYPE=Release -DCMAKE_PREFIX_PATH=/qt/path/bin ..`
-3. `make -j $(nproc)`
-4. `output/bin/stacer`
 
 ## Screenshots
 
