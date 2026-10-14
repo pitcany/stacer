@@ -242,14 +242,14 @@ cd build
 cpack -G DEB
 
 # The .deb file will be in build/
-# e.g., stacer-1.1.0-Linux-x86_64.deb
+# e.g., stacer-1.1.1-Linux-x86_64.deb
 ```
 
 ### Installing the .deb Package
 
 ```bash
 # Install the generated package
-sudo dpkg -i build/stacer-1.1.0-Linux-*.deb
+sudo dpkg -i build/stacer-1.1.1-Linux-*.deb
 
 # Fix any dependency issues
 sudo apt-get install -f
@@ -260,7 +260,7 @@ sudo apt-get install -f
 ```bash
 cd build
 cpack -G TGZ
-# Creates: stacer-1.1.0-Linux-x86_64.tar.gz
+# Creates: stacer-1.1.1-Linux-x86_64.tar.gz
 ```
 
 ### Manual Install (make install)
