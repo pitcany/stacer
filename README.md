@@ -34,12 +34,27 @@ This fork only adds build and packaging support for <b>Ubuntu 22.04 (Jammy)</b> 
 	</a>
 </p>
 
-## Ubuntu 22.04 / 24.04 (build from source)
+## Ubuntu 22.04 / 24.04
 
 This fork builds Stacer 1.1.0 against the Qt 5 packages shipped with Ubuntu 22.04 and 24.04.
-No pre-built packages are published for this fork, so build from source (or build your own `.deb`).
 
-### Quick start
+### Install from releases
+
+Tagged releases on the [Releases page](https://github.com/pitcany/stacer/releases) include `.deb` and `.tar.gz` packages built on Ubuntu 22.04 and 24.04. Pick the file that matches your Ubuntu version:
+
+```bash
+# Ubuntu 24.04
+sudo apt install ./stacer-1.1.0-Linux-x86_64-ubuntu24.04.deb
+
+# Ubuntu 22.04
+sudo apt install ./stacer-1.1.0-Linux-x86_64-ubuntu22.04.deb
+```
+
+`apt install ./file.deb` also pulls in the Qt 5 runtime dependencies. Then launch Stacer with the `stacer` command.
+
+The packages are built for x86_64 (`amd64`) by the [release workflow](.github/workflows/release.yml). If there is no release for your version or architecture, build from source below.
+
+### Quick start (build from source)
 
 ```bash
 git clone https://github.com/pitcany/stacer.git
