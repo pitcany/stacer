@@ -31,9 +31,11 @@ file(GLOB_RECURSE ${PROJECT_NAME}_translations "${PROJECT_ROOT}/translations/*.t
 # Translations (optional - only if Qt5LinguistTools is found)
 find_package(Qt5LinguistTools QUIET)
 if(Qt5LinguistTools_FOUND)
-  # qt5_create_translation updates .ts files from source and compiles to .qm
-  # Arguments: OUTPUT_VAR SOURCES TS_FILES
-  qt5_create_translation(QM_FILES ${${PROJECT_NAME}_srcs} ${${PROJECT_NAME}_translations})
+  # Only compile the committed .ts files to .qm. qt5_create_translation() would run lupdate
+  # on every build: it rewrites the tracked .ts files and, as it only scans the .cpp files
+  # (not the .ui forms), marks their strings as vanished so they are dropped from the .qm.
+  # Update the .ts files on purpose with: lupdate stacer/stacer.pro
+  qt5_add_translation(QM_FILES ${${PROJECT_NAME}_translations})
   set_directory_properties(PROPERTIES ADDITIONAL_MAKE_CLEAN_FILES "${QM_FILES}")
 else()
   message(STATUS "Qt5LinguistTools not found - translations will not be compiled")
