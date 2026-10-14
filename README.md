@@ -36,7 +36,7 @@ This fork only adds build and packaging support for <b>Ubuntu 22.04 (Jammy)</b> 
 
 ## Ubuntu 22.04 / 24.04
 
-This fork builds Stacer 1.1.0 against the Qt 5 packages shipped with Ubuntu 22.04 and 24.04.
+This fork builds Stacer 1.1.1 against the Qt 5 packages shipped with Ubuntu 22.04 and 24.04.
 
 ### Install from releases
 
@@ -44,10 +44,10 @@ Tagged releases on the [Releases page](https://github.com/pitcany/stacer/release
 
 ```bash
 # Ubuntu 24.04
-sudo apt install ./stacer-1.1.0-Linux-x86_64-ubuntu24.04.deb
+sudo apt install ./stacer-1.1.1-Linux-x86_64-ubuntu24.04.deb
 
 # Ubuntu 22.04
-sudo apt install ./stacer-1.1.0-Linux-x86_64-ubuntu22.04.deb
+sudo apt install ./stacer-1.1.1-Linux-x86_64-ubuntu22.04.deb
 ```
 
 `apt install ./file.deb` also pulls in the Qt 5 runtime dependencies. Then launch Stacer with the `stacer` command.
@@ -92,7 +92,7 @@ Runtime requirements are the Qt 5 libraries above plus the xcb platform plugin l
 ./scripts/build.sh Release        # binary: build/output/stacer
 ./scripts/run.sh
 
-./scripts/package.sh deb          # e.g. build/stacer-1.1.0-Linux-x86_64.deb
+./scripts/package.sh deb          # e.g. build/stacer-1.1.1-Linux-x86_64.deb
 sudo dpkg -i build/stacer-*.deb
 sudo apt-get install -f           # only if dependencies are missing
 ```

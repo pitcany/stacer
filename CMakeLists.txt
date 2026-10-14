@@ -8,7 +8,7 @@ if(POLICY CMP0115)
     cmake_policy(SET CMP0115 NEW)
 endif()
 
-project(Stacer VERSION 1.1.0 LANGUAGES CXX)
+project(Stacer VERSION 1.1.1 LANGUAGES CXX)
 
 # Adding features(build cache + faster linkers) and reasonable defaults(Debug build by default)
 include("${CMAKE_CURRENT_SOURCE_DIR}/cmake/cxxbasics/CXXBasics.cmake")
