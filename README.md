@@ -54,6 +54,38 @@ sudo apt install ./stacer-1.1.1-Linux-x86_64-ubuntu22.04.deb
 
 The packages are built for x86_64 (`amd64`) by the [release workflow](.github/workflows/release.yml). If there is no release for your version or architecture, build from source below.
 
+### Running over SSH
+
+Stacer is a desktop app, so a plain SSH session has no display for it to open on:
+
+```
+qt.qpa.xcb: could not connect to display
+This application failed to start because no Qt platform plugin could be initialized.
+```
+
+Stacer always shows the machine it runs on. Pick where its window should appear:
+
+- **On the computer you are SSHing from**: forward X11. The server needs `xauth` (`sudo apt install xauth`) and `X11Forwarding yes` in `/etc/ssh/sshd_config`, which is the Ubuntu default.
+
+  ```bash
+  ssh -X user@host     # use -Y if -X gives errors
+  stacer
+  ```
+
+- **On the remote machine's own screen**: you must be logged in to its desktop as the same user you SSH in as. Point Stacer at that session.
+
+  ```bash
+  export XDG_RUNTIME_DIR=/run/user/$(id -u)
+
+  # Wayland desktop (the Ubuntu default)
+  QT_QPA_PLATFORM=wayland WAYLAND_DISPLAY=wayland-0 stacer
+
+  # X11 desktop
+  DISPLAY=:0 XAUTHORITY=$XDG_RUNTIME_DIR/gdm/Xauthority stacer
+  ```
+
+To check the installation without a display, run `QT_QPA_PLATFORM=offscreen stacer --version`. A plain `stacer --version` needs a display too.
+
 ### Quick start (build from source)
 
 ```bash
