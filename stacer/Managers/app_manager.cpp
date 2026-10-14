@@ -22,9 +22,16 @@ AppManager::AppManager()
 
 //    loadThemeList();
 
-    if (mTranslator.load(QString("stacer_%1").arg(mSettingManager->getLanguage()), qApp->applicationDirPath() + "/translations")) {
-        qApp->installTranslator(&mTranslator);
-        (mSettingManager->getLanguage() == "ar") ? qApp->setLayoutDirection(Qt::RightToLeft) : qApp->setLayoutDirection(Qt::LeftToRight);
+    // Build tree: <bin>/translations; installed: <prefix>/share/stacer/translations
+    QString appDir = qApp->applicationDirPath();
+    QStringList translationDirs = { appDir + "/translations", appDir + "/../share/stacer/translations" };
+
+    for (const QString &dir : translationDirs) {
+        if (mTranslator.load(QString("stacer_%1").arg(mSettingManager->getLanguage()), dir)) {
+            qApp->installTranslator(&mTranslator);
+            (mSettingManager->getLanguage() == "ar") ? qApp->setLayoutDirection(Qt::RightToLeft) : qApp->setLayoutDirection(Qt::LeftToRight);
+            break;
+        }
     }
 }
 
